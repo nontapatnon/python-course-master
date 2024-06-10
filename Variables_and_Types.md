@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Variables and Types
 ---
 
 <p class="message">
