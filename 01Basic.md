@@ -167,9 +167,6 @@ strings = ['Shma', 'you', 'Design103']
 numbers.append(...)
 strings.append(...)
 print("I love " + strings[...] + str(numbers[...])  + str(numbers[...]) + " more than" + strings[...])
-...
-
-
 ```
 |
 |
