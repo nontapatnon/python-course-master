@@ -130,7 +130,7 @@ Lists are very similar to arrays. They can contain any type of variable, and the
 <img src="../src_img/python-list-index.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
-</br>
+<br>
 
 ```
 mylist = []
