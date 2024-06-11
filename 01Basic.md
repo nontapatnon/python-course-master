@@ -132,22 +132,24 @@ Lists are very similar to arrays. They can contain any type of variable, and the
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 <br />
+<br />
 
+**try:**
 ```
-mylist = []
-mylist.append(3)
-mylist.append(4)
-mylist.append(6)
-mylist.append(10)
-mylist.append(8)
-print(mylist[0]) # prints 1
-print(mylist[1]) # prints 2
-print(mylist[2]) # prints 3
+My_List = []
+My_List.append(3)
+My_List.append(4)
+My_List.append(6)
+My_List.append(10)
+My_List.append(8)
+print(My_List[0]) # prints 1
+print(My_List[1]) # prints 2
+print(My_List[2]) # prints 3
 ```
 
 ```
 # prints out 1,2,3
-for x in mylist:
+for x in My_List:
     print(x)
 ```
 |
