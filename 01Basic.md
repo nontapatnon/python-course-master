@@ -16,7 +16,42 @@ title: 01 Basics
 * [Modules and Packages](#modules-and-packages)
 
 ## Hello World
-|
+Python เป็นภาษาที่ง่าย ตรงไหนตรงมา
+สามารถอ่านได้อย่างง่ายดาย
+
+**Python**
+```
+print("Hello, World!")
+```
+
+**Java**
+```
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+```
+
+**C**
+```
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+```
+
+**C++**
+```
+#include <iostream>
+
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
+```
 |
 |
 |
