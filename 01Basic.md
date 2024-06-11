@@ -246,7 +246,7 @@ Floating point numbers with a fixed amount of digits to the right of the dot.
 * **%x/%X**
 Integers in hex representation (lowercase/uppercase)
 
-<img src="./src_img/int_hex.png"
+<img src="../src_img/int_hex.png"
      alt="Markdown Monster icon"
      style="margin-right: 0px" />
 
