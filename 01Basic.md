@@ -126,10 +126,12 @@ print(one + two + hello)
 
 ## Lists
 Lists are very similar to arrays. They can contain any type of variable, and they can contain as many variables as you wish. Lists can also be iterated over in a very simple manner.
-
-<img src="./src_img/python-list-index.png"
+<br>
+<img src="src_img/python-list-index.png"
+href="{{ site.baseurl }}/python-course-master"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
+</br>
 
 ```
 mylist = []
