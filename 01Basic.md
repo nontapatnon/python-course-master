@@ -249,7 +249,8 @@ Integers in hex representation (lowercase/uppercase)
 <img src="../src_img/int_hex.png"
      alt="Markdown Monster icon"
      style="margin-right: 0px" />
-
+     
+---
 ## Conditions
 |
 |
