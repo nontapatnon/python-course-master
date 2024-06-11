@@ -127,32 +127,34 @@ print(one + two + hello)
 ## Lists
 Lists are very similar to arrays. They can contain any type of variable, and they can contain as many variables as you wish. Lists can also be iterated over in a very simple manner.
 
-<img src="./src_img/python-list-index.png"
+<img src="../src_img/python-list-index.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 <br />
 
 **try:**
 ```
-My_List = []
-My_List.append(3)
-My_List.append(4)
-My_List.append(6)
-My_List.append(10)
+
+My_List = [3, 4, 6, 10]
+print(My_List[0])
+print(My_List[1])
+print(My_List[2])
+```
+```
 My_List.append(8)
-print(My_List[0]) # prints 1
-print(My_List[1]) # prints 2
-print(My_List[2]) # prints 3
+print(My_List)
 ```
 
 ```
-# prints out 1,2,3
+# prints out 8, 4, 6, 10, 8
 for x in My_List:
     print(x)
 ```
 ```
 mylist = [1,2,3]
 print(mylist[10])
+
+# IndexError: list index out of range
 ```
 |
 |
