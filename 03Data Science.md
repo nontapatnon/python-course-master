@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 03 Basic Operators
+title: 03 Data Science
 ---
 
 | Tables        | Are           | Cool   |
