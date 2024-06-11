@@ -16,8 +16,7 @@ title: 01 Basics
 * [Modules and Packages](#modules-and-packages)
 
 ## Hello World
-Python เป็นภาษาที่ง่าย ตรงไหนตรงมา
-สามารถอ่านได้อย่างง่ายดาย
+Python is a very simple language, and has a very straightforward syntax. The simplest directive in Python is the "print" directive - it simply prints out a line. 
 
 **Python**
 ```
