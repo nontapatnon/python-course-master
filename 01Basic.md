@@ -52,7 +52,7 @@ int main() {
 }
 ```
 
-## Indentation
+### Indentation
 Python uses indentation for blocks, instead of curly braces. Both tabs and spaces are supported, but the standard indentation requires standard Python code to use four spaces.
 ```
 x = 1
@@ -60,24 +60,41 @@ if x == 1:
     # indented four spaces
     print("x is 1.")
 ```
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+
+
 ## Variables and Types
+
+Python is completely object oriented, and not "statically typed". You do not need to declare variables before using them, or declare their type. Every variable in Python is an object.
+
+### Numbers
+Python supports two types of numbers:
+* integers(whole numbers)
+* floating point numbers(decimals).
+
+```
+myint = 7
+print(myint)
+print(type(myint))
+```
+**try:**
+```
+myfloat = 7.0
+print(myfloat)
+print(type(myfloat))
+
+myfloat = float(7)
+print(myfloat)
+print(type(myfloat))
+```
+
+### Strings
+Strings are defined either with a single quote or a double quotes.
+
+```
+myint = 7
+print(myint)
+print(type(myint))
+```
 |
 |
 |
