@@ -76,7 +76,7 @@ myint = 7
 print(myint)
 print(type(myint))
 ```
-**try:**
+**and**
 ```
 myfloat = 7.0
 print(myfloat)
@@ -94,6 +94,19 @@ Strings are defined either with a single quote or a double quotes.
 myint = 7
 print(myint)
 print(type(myint))
+```
+There are additional variations on defining strings that make it easier to include things such as carriage returns, backslashes and Unicode characters.
+
+```
+one = 1
+two = 2
+three = one + two
+print(three)
+
+hello = "hello"
+world = "world"
+helloworld = hello + " " + world
+print(helloworld)
 ```
 |
 |
