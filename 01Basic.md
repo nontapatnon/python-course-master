@@ -259,7 +259,7 @@ test = 190.985
 print("I am %.2f years old" % test)
 ```
 
-* **%x/%X** - Integers in hex representation (lowercase/uppercase)
+* **%x, %X** - Integers in hex representation (lowercase/uppercase)
 ```
 test = 15
 print("I am %x years old" % test)
