@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Variables and Types
+title: 02 Lists
 ---
 
 | Tables        | Are           | Cool   |
