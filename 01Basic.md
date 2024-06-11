@@ -214,7 +214,19 @@ Just as in **strings**, Python supports forming new **lists** with a repeating s
 print([1,2,3] * 3)
 ```
 ---
+
 ## String Formatting
+Python uses C-style string formatting to create new, formatted strings. The **"%"** operator is used to format a set of variables enclosed in a **"tuple"** (a fixed size list), together with a format string, which contains normal text together with **"argument specifiers"**, special symbols like **"%s"** and **"%d"**.
+```
+name = "John"
+print("Hello, %s!" % name)
+```
+To use two or more argument specifiers, use a tuple (parentheses):
+```
+name = "John"
+age = 23
+print("%s is %d years old." % (name, age))
+```
 |
 |
 |
