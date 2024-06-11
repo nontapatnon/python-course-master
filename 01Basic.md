@@ -157,8 +157,8 @@ print(mylist[10])
 # IndexError: list index out of range
 ```
 ### Exercise
-In this exercise, you will need to add numbers and strings to the correct lists using the "append" list method. You must add the numbers 1,2,3 and 4 to the "numbers" list, and the words 'Architects' to the strings variable.
-The result must be **" I love Architects49 more than you"**
+In this exercise, you will need to add numbers and strings to the correct lists using the "append" list method. You must add the numbers 1,2,3 and 4 to the "numbers" list, and the words 'Architects' to the strings variable. \
+The result must be **"I love Architects49 more than you"**
 ```
 numbers = [1,2,3]
 strings = ['Shma', 'you', 'Design103']
@@ -166,7 +166,7 @@ strings = ['Shma', 'you', 'Design103']
 # Hint
 numbers.append(...)
 strings.append(...)
-print("I love " + strings[...] + str(numbers[...])  + str(numbers[...]) + " more than" + strings[...]))
+print("I love " + strings[...] + str(numbers[...])  + str(numbers[...]) + " more than" + strings[...])
 ...
 
 
