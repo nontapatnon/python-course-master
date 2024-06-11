@@ -266,7 +266,7 @@ print("I am %x years old" % test)
 print("I am %X years old" % test)
 ```
 
-<img src="./src_img/int_hex.png"
+<img src="../src_img/int_hex.png"
      alt="Markdown Monster icon"
      style="display: flex;
             justify-content: center;
