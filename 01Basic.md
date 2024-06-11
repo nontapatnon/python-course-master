@@ -60,7 +60,7 @@ if x == 1:
     # indented four spaces
     print("x is 1.")
 ```
-
+---
 
 ## Variables and Types
 
@@ -107,6 +107,12 @@ hello = "hello"
 world = "world"
 helloworld = hello + " " + world
 print(helloworld)
+```
+
+Assignments can be done on more than one variable "simultaneously" on the same line
+```
+a, b = 3, 4
+print(a, b)
 ```
 |
 |
