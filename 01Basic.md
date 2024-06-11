@@ -150,6 +150,10 @@ print(My_List[2]) # prints 3
 for x in My_List:
     print(x)
 ```
+```
+mylist = [1,2,3]
+print(mylist[10])
+```
 |
 |
 |
