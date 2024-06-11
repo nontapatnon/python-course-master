@@ -161,7 +161,7 @@ In this exercise, you will need to add numbers and strings to the correct lists 
 The result must be **" I love Architects49 more than you"**
 ```
 numbers = [1,2,3]
-strings = ['Shma', 'you', Design103']
+strings = ['Shma', 'you', 'Design103']
 
 # Hint
 numbers.append(...)
