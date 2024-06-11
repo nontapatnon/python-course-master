@@ -166,7 +166,7 @@ strings = ['Shma', 'you', 'Design103']
 # Hint
 numbers.append(...)
 strings.append(...)
-print("I love " + strings[...] + "4" + str(numbers[...] + " more than" + strings[...]))
+print("I love " + strings[...] + str(numbers[...])  + str(numbers[...]) + " more than" + strings[...]))
 ...
 
 
