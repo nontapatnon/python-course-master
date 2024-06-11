@@ -157,7 +157,7 @@ print(mylist[10])
 # IndexError: list index out of range
 ```
 ### Exercise
-In this exercise, you will need to add numbers and strings to the correct lists using the "append" list method. You must add the numbers 1,2,3 and 4 to the "numbers" list, and the words 'Architects' to the strings variable. \
+In this exercise, you will need to add numbers and strings to the correct lists using the "append" list method. You must add the number 9 to the "numbers" list, and the word 'Architects' to the "strings" list. \
 The result must be **"I love Architects49 more than you"**
 ```
 numbers = [1,2,3]
