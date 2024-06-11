@@ -268,9 +268,8 @@ print("I am %X years old" % test)
 
 <img src="../src_img/int_hex.png"
      alt="Markdown Monster icon"
-     style="display: flex;
-            justify-content: center;
-            align-items: center;" />
+     style="margin-right: 0px;" />
+
 
 ---
 ## Conditions
