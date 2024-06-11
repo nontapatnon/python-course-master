@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 02 Lists
+title: 02 Advanced
 ---
 
 | Tables        | Are           | Cool   |
