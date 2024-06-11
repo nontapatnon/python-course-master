@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 01 Lists
+title: 01 Basics
 ---
 
 * [Hello, World!](#hello-world)
