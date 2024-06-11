@@ -172,6 +172,7 @@ print("I love " + strings[...] + str(numbers[...])  + str(numbers[...]) + " more
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 <br />
+---
 
 ## Basic Operators
 ### Arithmetic Operators
@@ -212,25 +213,7 @@ Just as in **strings**, Python supports forming new **lists** with a repeating s
 ```
 print([1,2,3] * 3)
 ```
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+---
 ## String Formatting
 |
 |
