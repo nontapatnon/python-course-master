@@ -235,16 +235,36 @@ print("A list: %s" % mylist)
 
 **Here are some basic argument specifiers you should know:**
 
-* **%s**
-String (or any object with a string representation, like numbers)
-* **%d**
-Integers
-* **%f**
-Floating point numbers
-* **%.<*number of digits*>f**
-Floating point numbers with a fixed amount of digits to the right of the dot.
-* **%x/%X**
-Integers in hex representation (lowercase/uppercase)
+* **%s** - String (or any object with a string representation, like numbers)
+```
+test = "a book"
+print("This is %s !" % test)
+```
+
+* **%d** - Integers
+```
+test = 19
+print("I am %d years old" % test)
+```
+
+* **%f** - Floating point numbers
+```
+test = 190.985
+print("I am %d years old" % test)
+```
+
+* **%.<*number of digits*>f** - Floating point numbers with a fixed amount of digits to the right of the dot.
+```
+test = 190.985
+print("I am %.2f years old" % test)
+```
+
+* **%x/%X** - Integers in hex representation (lowercase/uppercase)
+```
+test = 15
+print("I am %x years old" % test)
+print("I am %X years old" % test)
+```
 
 <img src="./src_img/int_hex.png"
      alt="Markdown Monster icon"
