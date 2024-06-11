@@ -134,9 +134,11 @@ Lists are very similar to arrays. They can contain any type of variable, and the
 
 ```
 mylist = []
-mylist.append(1)
-mylist.append(2)
 mylist.append(3)
+mylist.append(4)
+mylist.append(6)
+mylist.append(10)
+mylist.append(8)
 print(mylist[0]) # prints 1
 print(mylist[1]) # prints 2
 print(mylist[2]) # prints 3
