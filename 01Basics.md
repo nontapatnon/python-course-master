@@ -9,7 +9,11 @@ title: 01 Basics
 * [Basic Operators](#basic-operators)
 * [String Formatting](#string-formatting)
 * [Conditions](#conditions)
-* [Hello, World!](#hello-world)
+* [Loops](#loops)
+* [Functions](#functions)
+* [Classes and Objects](#classes-and-objects)
+* [Dictionaries](#dictionaries)
+* [Modules and Packages](#modules-and-packages)
 
 ## Hello World
 |
@@ -107,3 +111,98 @@ title: 01 Basics
 |
 |
 ## Conditions
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+## Loops
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+## Functions
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+## Classes and Objects
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+## Dictionaries
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+## Modules and Packages
