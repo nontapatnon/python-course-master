@@ -532,23 +532,23 @@ xxx
 ```
 ---
 
-
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
 ## >Classes and Objects
-|
+Objects are an encapsulation of variables and functions into a single entity. Objects get their variables and functions from classes. Classes are essentially a template to create your objects.
+<img src="../src_img/oop1.png"
+     alt="Markdown Monster icon"
+     style="margin-right: 0px;" />
+
+<img src="../src_img/oop2.png"
+     alt="Markdown Monster icon"
+     style="margin-right: 0px;" />
+     
+<img src="../src_img/oop3.png"
+     alt="Markdown Monster icon"
+     style="margin-right: 0px;" />
+     
+<img src="../src_img/oop4.png"
+     alt="Markdown Monster icon"
+     style="margin-right: 0px;" />
 |
 |
 |
