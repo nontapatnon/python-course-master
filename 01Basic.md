@@ -3,7 +3,7 @@ layout: page
 title: 01 Basics
 ---
 
-* [Hello, World!](#hello-world)
+* [Hello, World!](#>-hello-world)
 * [Variables and Types](#variables-and-types)
 * [Lists](#lists)
 * [Basic Operators](#basic-operators)
@@ -15,7 +15,7 @@ title: 01 Basics
 * [Dictionaries](#dictionaries)
 * [Modules and Packages](#modules-and-packages)
 
-## Hello World
+## >Hello World
 Python is a very simple language, and has a very straightforward syntax. The simplest directive in Python is the "print" directive - it simply prints out a line. 
 
 **Python**
@@ -62,7 +62,7 @@ if x == 1:
 ```
 ---
 
-## Variables and Types
+## >Variables and Types
 
 Python is completely object oriented, and not "statically typed". You do not need to declare variables before using them, or declare their type. Every variable in Python is an object.
 
@@ -124,7 +124,7 @@ print(one + two + hello)
 ```
 ---
 
-## Lists
+## >Lists
 Lists are very similar to arrays. They can contain any type of variable, and they can contain as many variables as you wish. Lists can also be iterated over in a very simple manner.
 
 <img src="../src_img/python-list-index.png"
@@ -175,7 +175,7 @@ print("I love " + strings[...] + str(numbers[...])  + str(numbers[...]) + " more
 
 ---
 
-## Basic Operators
+## >Basic Operators
 ### Arithmetic Operators
  **The addition, subtraction, multiplication, and division** operators can be used with numbers.
 
@@ -216,7 +216,7 @@ print([1,2,3] * 3)
 ```
 ---
 
-## String Formatting
+## >String Formatting
 Python uses C-style string formatting to create new, formatted strings. The **"%"** operator is used to format a set of variables enclosed in a **"tuple"** (a fixed size list), together with a format string, which contains normal text together with **"argument specifiers"**, special symbols like **"%s"** and **"%d"**.
 ```
 name = "John"
@@ -280,7 +280,7 @@ format_string = "Hello"
 print(format_string ... % data)
 ```
 ---
-## Conditions
+## >Conditions
 Python uses **boolean logic** to evaluate conditions. The boolean values True and False are returned when an expression is compared or evaluated. 
 
 ```
@@ -365,7 +365,7 @@ else:
 |
 |
 |
-## Loops
+## >Loops
 |
 |
 |
@@ -384,7 +384,7 @@ else:
 |
 |
 |
-## Functions
+## >Functions
 |
 |
 |
@@ -403,7 +403,7 @@ else:
 |
 |
 |
-## Classes and Objects
+## >Classes and Objects
 |
 |
 |
@@ -422,7 +422,7 @@ else:
 |
 |
 |
-## Dictionaries
+## >Dictionaries
 |
 |
 |
@@ -441,4 +441,4 @@ else:
 |
 |
 |
-## Modules and Packages
+## >Modules and Packages
