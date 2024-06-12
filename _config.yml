@@ -9,10 +9,15 @@ paginate:            5
 permalink:           pretty
 
 # About/contact
+# author:
+#   name:              Mark Otto
+#   url:               https://twitter.com/mdo
+#   email:             markdotto@gmail.com
 author:
-  name:              Mark Otto
+  name:              Nontapat Thaiprayoon
   url:               https://twitter.com/mdo
   email:             markdotto@gmail.com
+
 
 # Gems
 plugins:

@@ -172,6 +172,7 @@ print("I love " + strings[...] + str(numbers[...])  + str(numbers[...]) + " more
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 <br />
+
 ---
 
 ## Basic Operators
@@ -280,6 +281,35 @@ print(format_string ... % data)
 ```
 ---
 ## Conditions
+Python uses **boolean logic** to evaluate conditions. The boolean values True and False are returned when an expression is compared or evaluated. 
+
+```
+x = 2
+print(x == 2)
+print(x == 3)
+print(x < 3)
+```
+The variable assignment is done using a single equals operator **"="**, whereas comparison between two variables is done using the double equals operator **"=="**. The "not equals" operator is marked as **"!="**.
+```
+name = "Nonny"
+age = 18
+if name == "Nonny" and age == 18:
+    print("Your name is Nonny, and you are also 18 years old.")
+
+if name == "Nonny" or name == "Johny":
+    print("Your name is either Nonny or Johny.")
+```
+```
+name = "Nonny"
+age = 14
+if name == "Nonny" and age != 18:
+    print("Your name is Nonny, but you are not yet 18 years old.")
+```
+
+```
+print("Nonny" == "Nonny")
+print(18 != 18)
+```
 |
 |
 |
