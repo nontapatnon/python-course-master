@@ -464,11 +464,11 @@ for number in numbers:
 ## >Functions
 ### What are Functions?
 Functions are a convenient way to divide your code into useful blocks, allowing us to order our code, make it more readable, reuse it and save some time. Also functions are a key way to define interfaces so programmers can share their code.
-<img src="./src_img/function_machine.png"
+<img src="../src_img/function_machine.png"
      alt="Markdown Monster icon"
      style="margin-right: 0px;" />
 
-<img src="./src_img/domain-and-range-of-a-function.png"
+<img src="../src_img/domain-and-range-of-a-function.png"
      alt="Markdown Monster icon"
      style="margin-right: 0px;" />
 
