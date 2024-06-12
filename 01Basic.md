@@ -493,7 +493,41 @@ Functions may also receive arguments (variables passed from the caller to the fu
 def my_function_with_args(username, greeting):
     print("Hello, %s , From My Function!, I wish you %s"%(username, greeting))
 ```
-|
+Functions may return a value to the caller, using the keyword- **'return'**.
+
+```
+def sum_two_numbers(a, b):
+    return a + b
+```
+
+### How do you call functions in Python?
+Simply write the function's name followed by **()**, placing any required arguments within the brackets.
+```
+def my_function():
+    print("Hello From My Function!")
+
+my_function()
+```
+
+```
+def my_function_with_args(username, greeting):
+    print("Hello, %s, From My Function!, I wish you %s"%(username, greeting))
+
+my_function_with_args("John Doe", "a great year!")
+```
+
+```
+def sum_two_numbers(a, b):
+    return a + b
+
+x = sum_two_numbers(1,2)
+print(x)
+```
+
+
+
+
+
 |
 |
 |
