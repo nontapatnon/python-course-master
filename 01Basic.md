@@ -322,8 +322,10 @@ name = "Nonny"
 if name in ["Nonny", "Lawrence"]:
     print("Your name is either Nonny or Lawrence.")
 ```
-
-
+Python uses indentation to define code blocks, instead of brackets. The standard Python indentation is 4 spaces, although tabs and any other space size will work, as long as it is consistent.
+<img src="../src_img/indentation.png"
+     alt="Markdown Monster icon"
+     style="margin-right: 0px;" />
 |
 |
 |
