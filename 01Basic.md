@@ -290,6 +290,10 @@ print(x == 3)
 print(x < 3)
 ```
 The variable assignment is done using a single equals operator **"="**, whereas comparison between two variables is done using the double equals operator **"=="**. The "not equals" operator is marked as **"!="**.
+
+### Boolean operators
+The **"and"** and **"or"** boolean operators allow building complex boolean expressions.
+
 ```
 name = "Nonny"
 age = 18
