@@ -300,8 +300,8 @@ age = 18
 if name == "Nonny" and age == 18:
     print("Your name is Nonny, and you are also 18 years old.")
 
-if name == "Nonny" or name == "Johny":
-    print("Your name is either Nonny or Johny.")
+if name == "Nonny" or name == "Lawrence":
+    print("Your name is either Nonny or Lawrence.")
 ```
 ```
 name = "Nonny"
@@ -314,6 +314,16 @@ if name == "Nonny" and age != 18:
 print("Nonny" == "Nonny")
 print(18 != 18)
 ```
+
+### The "in" operator
+The "in" operator could be used to check if a specified object exists within an iterable object container.
+```
+name = "Nonny"
+if name in ["Nonny", "Lawrence"]:
+    print("Your name is either Nonny or Lawrence.")
+```
+
+
 |
 |
 |
