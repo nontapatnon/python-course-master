@@ -347,7 +347,23 @@ if x == 2:
 else:
     print("x does not equal to two.")
 ```
+### The 'is' operator
+Unlike the double equals operator **"=="**, the **"is"** operator does **not match** the values of the variables, but the instances themselves.
+```
+x = [1,2,3]
+y = [1,2,3]
+print(x == y) # Prints out True
+print(x is y) # Prints out False
 
+print(x is x) # Prints out True
+```
+### The "not" operator
+Using **"not"** before a boolean expression inverts it.
+```
+print(not False) # Prints out True
+print((not False) == (False)) # Prints out False
+```
+---
 |
 |
 |
