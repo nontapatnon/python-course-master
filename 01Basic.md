@@ -459,20 +459,40 @@ for number in numbers:
     ...
     ...
 ```
+---
 
-
-|
-|
-|
-|
-|
-|
-|
 ## >Functions
-|
-|
-|
-|
+### What are Functions?
+Functions are a convenient way to divide your code into useful blocks, allowing us to order our code, make it more readable, reuse it and save some time. Also functions are a key way to define interfaces so programmers can share their code.
+<img src="./src_img/function_machine.png"
+     alt="Markdown Monster icon"
+     style="margin-right: 0px;" />
+
+<img src="./src_img/domain-and-range-of-a-function.png"
+     alt="Markdown Monster icon"
+     style="margin-right: 0px;" />
+
+```
+block_head:
+    1st block line
+    2nd block line
+    ...
+```
+Where a **block line** is more Python code (even another block), and the **block head** is of the following format: block_keyword **block_name(argument1,argument2, ...)** Block keywords you already know are "if", "for", and "while".
+
+Functions in python are defined using the block keyword **"def"**, followed with the function's name as the block's name. 
+
+```
+def my_function():
+    print("Hello From My Function!")
+```
+
+Functions may also receive arguments (variables passed from the caller to the function).
+
+```
+def my_function_with_args(username, greeting):
+    print("Hello, %s , From My Function!, I wish you %s"%(username, greeting))
+```
 |
 |
 |
