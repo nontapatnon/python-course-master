@@ -548,9 +548,28 @@ xxx
      alt="Markdown Monster icon"
      style="margin-right: 0px;" />
      
+
+     
+#### ค่อนข้างซับซ้อน ขออธิบายเป็นภาษาไทย 555
+
 <img src="../src_img/oop4.png"
      alt="Markdown Monster icon"
      style="margin-right: 0px;" />
+
+OOP เป็นวิธีการเขียนโปรแกรมรูปแบบหนึ่ง โดยมองสิ่งต่างๆในระบบเป็นวัตถุ (Object) ชิ้นหนึ่งที่มีหน้าที่และความหมายในตัว โดยวัตถุๆนั้น ก็มี คุณสมบัติ (Attributes) และ พฤติกรรม (Method,Behavior, Functionality) หรือการกระทำของมัน เป็นการมองบนพื้นฐานความเป็นจริงมากขึ้น
+
+จากตัวอย่างรูปข้างบน
+* Object คือ คน(Person) ประกอบไปด้วย 2 ส่วน
+    * คุณสมบัติ(Attributes) ประกอบไปด้วย
+        * Name
+        * Age
+        * Gender
+        * Occupation
+    * พฤติกรรม (Method, Behavior, Functionality) ซึ่งกอบประกอบไปด้วย
+        * Walk()
+        * Eat()
+        * Sleep()
+        * Work()
 |
 |
 |
