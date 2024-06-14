@@ -268,8 +268,7 @@ print("I am %X years old" % test)
 ```
 
 <img src="../src_img/int_hex.png"
-     alt="Markdown Monster icon"
-     style="margin-right: 0px;" />
+     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 ### Exercise
 You will need to write a format string which prints out the data using the following syntax: **Hello John Doe. Your current balance is $53.44.**
@@ -324,8 +323,7 @@ if name in ["Nonny", "Lawrence"]:
 ```
 Python uses indentation to define code blocks, instead of brackets. The standard Python indentation is **4 spaces**, although **tabs** and **any other space size will work**, as long as it is consistent.
 <img src="../src_img/indentation.png"
-     alt="Markdown Monster icon"
-     style="margin-right: 0px;" />
+     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 ```
 statement = False
@@ -465,12 +463,10 @@ for number in numbers:
 ### What are Functions?
 Functions are a convenient way to divide your code into useful blocks, allowing us to order our code, make it more readable, reuse it and save some time. Also functions are a key way to define interfaces so programmers can share their code.
 <img src="../src_img/function_machine.png"
-     alt="Markdown Monster icon"
-     style="margin-right: 0px;" />
+     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 <img src="../src_img/domain-and-range-of-a-function.png"
-     alt="Markdown Monster icon"
-     style="margin-right: 0px;" />
+     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 ```
 block_head:
@@ -535,18 +531,15 @@ xxx
 ## >Classes and Objects
 
 <img src="../src_img/oop1.png"
-     alt="Markdown Monster icon"
-     style="margin-right: 0px;" />
+     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 **Objects** are an **encapsulation of variables and functions** into a single entity. Objects get their variables and functions from classes. **Classes** are essentially a **template to create your objects**.
 
 <img src="../src_img/oop2.png"
-     alt="Markdown Monster icon"
-     style="margin-right: 0px;" />
+     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
      
 <img src="../src_img/oop3.png"
-     alt="Markdown Monster icon"
-     style="margin-right: 0px;" />
+     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
      
 
      
@@ -555,8 +548,7 @@ xxx
 OOP เป็นวิธีการเขียนโปรแกรมรูปแบบหนึ่ง โดยมองสิ่งต่างๆในระบบเป็นวัตถุ (Object) ชิ้นหนึ่งที่มีหน้าที่และความหมายในตัว โดยวัตถุๆนั้น ก็มี คุณสมบัติ (Attributes) และ พฤติกรรม (Method,Behavior, Functionality) หรือการกระทำของมัน เป็นการมองบนพื้นฐานความเป็นจริงมากขึ้น
 
 <img src="../src_img/oop4.png"
-     alt="Markdown Monster icon"
-     style="margin-right: 0px;" />
+     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 จากตัวอย่างรูปข้างบน
 * Object คือ คน(Person) ประกอบไปด้วย 2 ส่วน
@@ -600,8 +592,7 @@ A49_1.display_name()
 ในภาษา Python นั้น   `__init__()`  เป็น Method พิเศษ (Special or Dunder Method) หรือที่เรียกว่า Constructor ก็ได้เช่นกัน ซึ่ง  `__init__()`  จะถูกเรียกใช้โดยอัตโนมัติเมื่อมีการสร้างobjects ของคลาสขึ้นมา หรือเรียกได้ว่าจะเป็นส่วนของการเริ่มต้น (initialize) ของ class
 
 <img src="../src_img/init-viz.png"
-     alt="Markdown Monster icon"
-     style="margin-right: 0px;" />
+     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 Method  `__init__()` ใช้พารามิเตอร์ `self` ซึ่งเป็นการอ้างอิงถึงวัตถุที่กำลังสร้าง เพื่อให้สามารถเข้าถึงคุณสมบัติ (Attributes) และเมธอด (Methods) ของวัตถุ โดยพารามิเตอร์ `self`  ต้องเป็นพารามิเตอร์แรกในเมธอดที่กำหนดในคลาส ถึงแม้ว่าใน Python เราสามารถกำหนดพารามิเตอร์เป็นชื่ออะไรก็ได้ที่ไม่ใช่ `self` แต่สุดท้ายแล้วก็คือธรรมเนียมปฏิบัติ (convension) ของภาษาว่าควรต้องใช้ `self` ถึงจะเหมาะสมที่สุด
 
@@ -641,22 +632,19 @@ A49_1.display_name()
 คือ วิธีการในการซ่อนข้อมูลหรือจำกัดการเข้าถึงข้อมูลบางอย่าง โดยหากต้องการเข้าถึงข้อมูลให้เข้าถึงผ่านทาง Methods หรือเราสามารถกำหนดระดับการเข้าถึงได้ ยกตัวอย่างเช่น public , private
 
 <img src="../src_img/oop5.png"
-     alt="Markdown Monster icon"
-     style="margin-right: 0px;" />
+     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 **2. Inheritance (การสืบทอด)**
 เป็นหลักการที่ คลาสแม่ (Super Class) สามารถสืบทอด Attributes และ Method ต่างๆ ไปยัง คลาสลูก (Sub Class) ได้ ซึ่ง คลาสลูกจะได้รับทุกอย่างจากคลาสแม่ และสามารถเพิ่มเติม Attributes หรือ Method เฉพาะตัวเข้าไปได้
 
 <img src="../src_img/oop6.png"
-     alt="Markdown Monster icon"
-     style="margin-right: 0px;" />
+     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 **3. Polymorphism (การพ้องรูป)**
 เป็นคุณสมบัติที่ว่า วัตถุใหม่ที่เกิดจากวัตถุแม่ชนิดเดียวกัน มีความสามารถเหมือนแม่แต่การผลลัพธ์การทำงานไม่เหมือนกัน โดยมีลักษณะเฉพาะตัว
 
 <img src="../src_img/oop7.png"
-     alt="Markdown Monster icon"
-     style="margin-right: 0px;" />
+     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 **4. Abstraction (หลักการนามธรรม)**
 คือ การแสดง Attributes และ Method ของ Object เท่าที่จำเป็น เรารู้แค่ว่า Method นี้ทำงานอย่างไรมี input parametes เป็นอย่างไร แต่ไม่จำเป็นที่ต้องรู้ถึงวิธีการทำงาน เช่น เครื่องชงกาแฟ เรารู้แค่ว่า ใส่เม็ดกาแฟ ,ใส่นม ,ใส่น้ำตาล แต่ไม่จำเป็นต้องรู้ว่าใช้น้ำกี่องศาหรือต้องบดกาแฟละเอียดเท่าไร
@@ -703,8 +691,7 @@ print('Box a volume a is %s box b' % Box.compare(a, b))
 ## >Dictionaries
 A dictionary is a data type similar to arrays, but works with **keys** and **values** instead of **indexes**. Each value stored in a dictionary can be accessed using a key, which is any type of object (a string, a number, a list, etc.) instead of using its index to address it.
 <img src="../src_img/dict.png"
-     alt="Markdown Monster icon"
-     style="margin-right: 0px;" />
+     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 
 ```
@@ -713,9 +700,10 @@ phonebook["Nonny"] = 938477566
 phonebook["Lawrence"] = 938377264
 print(phonebook)
 ```
-<img src="../src_img/json.png"
-     alt="Markdown Monster icon"
-     style="margin-right: 0px;" />
+<img src="./src_img/json.png"
+     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+
 
 [Example JSON file](https://website-name.com 'Link title')
 
