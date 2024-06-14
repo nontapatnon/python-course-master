@@ -123,7 +123,7 @@ hello = "hello"
 print(one + two + hello)
 ```
 
-<img src=./src_img/reserverdwords.png"
+<img src="../src_img/reserverdwords.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 
