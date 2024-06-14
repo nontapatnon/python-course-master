@@ -122,7 +122,8 @@ two = 2
 hello = "hello"
 print(one + two + hello)
 ```
-
+### Reserved Words
+A python keyword is a reserved word which **you can’t use** as a name of your variable, class, function etc. These keywords have a special meaning and they are used for special purposes in Python programming language.
 <img src="../src_img/reserverdwords.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
