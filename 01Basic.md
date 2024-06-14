@@ -706,14 +706,18 @@ A dictionary is a data type similar to arrays, but works with **keys** and **val
      alt="Markdown Monster icon"
      style="margin-right: 0px;" />
 
-     
+
 ```
 phonebook = {}
 phonebook["Nonny"] = 938477566
 phonebook["Lawrence"] = 938377264
 print(phonebook)
 ```
+<img src="../src_img/json.png"
+     alt="Markdown Monster icon"
+     style="margin-right: 0px;" />
 
+[Example JSON file](https://website-name.com 'Link title')
 
 
 |
