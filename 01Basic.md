@@ -634,16 +634,22 @@ A49_1.display_name()
 * `A49_1` คือ objects
 * `displya_name()` คือ method
 
-<img src="../src_img/oop.png"
-     alt="Markdown Monster icon"
-     style="margin-right: 0px;" />
+
 
 ### สรุป
 **1. Encapsulation (การห่อหุ้มข้อมูล)**
 คือ วิธีการในการซ่อนข้อมูลหรือจำกัดการเข้าถึงข้อมูลบางอย่าง โดยหากต้องการเข้าถึงข้อมูลให้เข้าถึงผ่านทาง Methods หรือเราสามารถกำหนดระดับการเข้าถึงได้ ยกตัวอย่างเช่น public , private
 
+<img src="../src_img/oop5.png"
+     alt="Markdown Monster icon"
+     style="margin-right: 0px;" />
+
 **2. Inheritance (การสืบทอด)**
 เป็นหลักการที่ คลาสแม่ (Super Class) สามารถสืบทอด Attributes และ Method ต่างๆ ไปยัง คลาสลูก (Sub Class) ได้ ซึ่ง คลาสลูกจะได้รับทุกอย่างจากคลาสแม่ และสามารถเพิ่มเติม Attributes หรือ Method เฉพาะตัวเข้าไปได้
+
+<img src="../src_img/oop6.png"
+     alt="Markdown Monster icon"
+     style="margin-right: 0px;" />
 
 **3. Polymorphism (การพ้องรูป)**
 เป็นคุณสมบัติที่ว่า วัตถุใหม่ที่เกิดจากวัตถุแม่ชนิดเดียวกัน มีความสามารถเหมือนแม่แต่การผลลัพธ์การทำงานไม่เหมือนกัน โดยมีลักษณะเฉพาะตัว
