@@ -709,6 +709,10 @@ phonebook["Nonny"] = 938477566
 phonebook["Lawrence"] = 938377264
 print(phonebook)
 ```
+<img src="../src_img/dict.png"
+     alt="Markdown Monster icon"
+     style="margin-right: 0px;" />
+
 
 |
 |
