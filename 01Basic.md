@@ -614,6 +614,26 @@ class Person:
 
 จากตัวอย่างด้านบนของ class `Person` จะเห็นว่าได้มีการประกาศพารามิเตอร์ 3 ตัว (รวม `self` ด้วย) นั่นก็คือ   `self`, `name` และ `age`
 
+### Method 
+Method คือฟังก์ชันที่อยู่ภายใน class โดยเมธอดจะเป็นตัวกำหนดการกระทำ (behavior) ของclass ถ้าสังเกตให้ดีจะเห็นว่า method ก็คือฟังก์ชัน ๆ หนึ่ง เพียงแต่ว่าเป็นฟังก์ชันที่อยู่ภายใต้ class นั่นเอง
+
+```
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def display_name(self):
+        print(self.name, "is employee name")
+
+A49_1 = Person("Nonny", 14)
+A49_1.display_name()
+```
+จากตัวอย่าง `A49_1.display_name()` จะเห็นว่าเราสามารถเข้าถึง **method** ของ **class** ได้
+
+* `A49_1` คือ objects
+* `displya_name()` คือ method
+
 ## >Dictionaries
 |
 |
