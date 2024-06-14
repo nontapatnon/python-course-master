@@ -611,6 +611,9 @@ class Person:
         self.name = name
         self.age = age
 ```
+
+จากตัวอย่างของคลาส `Person` ด้านบนจะเห็นว่าได้มีการประกาศพารามิเตอร์ 3 ตัว (รวม `self` ด้วย) นั่นก็คือ   `self`, `name` และ `age`
+
 ## >Dictionaries
 |
 |
