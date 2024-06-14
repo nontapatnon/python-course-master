@@ -594,7 +594,7 @@ A49_1.display_name()
 * `__init__()` คือ Method พิเศษเอาไว้ใช้สำหรับเริ่มต้น (Initialize) คลาส
 * `display_name()`  คือ Method ในคำสั่งนี้ก็ทำเพียงแค่แสดงผลคำว่า "... is my name"
 * `A49_1` และ  `A49_2` คือ Objects
-* `A49_1.display_name()`  คือ การเรียกใช้ Method ของ Objects: A49_1
+* `A49_1.display_name()`  คือ การเรียกใช้ Method ของ Objects: `A49_1`
 
 ### What is`__init__( )` and `self` in Python ?
 ในภาษา Python นั้น   `__init__()`  เป็น Method พิเศษ (Special or Dunder Method) หรือที่เรียกว่า Constructor ก็ได้เช่นกัน ซึ่ง  `__init__()`  จะถูกเรียกใช้โดยอัตโนมัติเมื่อมีการสร้างobjects ของคลาสขึ้นมา หรือเรียกได้ว่าจะเป็นส่วนของการเริ่มต้น (initialize) ของ Class
