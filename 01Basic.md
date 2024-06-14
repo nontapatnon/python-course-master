@@ -634,6 +634,10 @@ A49_1.display_name()
 * `A49_1` คือ objects
 * `displya_name()` คือ method
 
+<img src="../src_img/oop.png"
+     alt="Markdown Monster icon"
+     style="margin-right: 0px;" />
+
 ### สรุป
 **1. Encapsulation (การห่อหุ้มข้อมูล)**
 คือ วิธีการในการซ่อนข้อมูลหรือจำกัดการเข้าถึงข้อมูลบางอย่าง โดยหากต้องการเข้าถึงข้อมูลให้เข้าถึงผ่านทาง Methods หรือเราสามารถกำหนดระดับการเข้าถึงได้ ยกตัวอย่างเช่น public , private
