@@ -2,5 +2,5 @@
 layout: page
 title: About
 ---
-# 404: Page not found
-Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. [Head back home]({{ site.url }}) to try finding it again.
+# Temporarily Close for Construction
+Sorry, we've doing some work on the site. [Head back home]({{ site.url }}) to try finding it again.
