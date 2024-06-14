@@ -705,7 +705,7 @@ print(phonebook)
 
 
 
-[Example JSON file](https://website-name.com 'Link title')
+[JSON file](https://website-name.com 'Link title')
 
 
 |
