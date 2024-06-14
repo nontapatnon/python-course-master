@@ -705,11 +705,17 @@ print(phonebook)
 
 
 
-[JSON file](https://website-name.com 'Link title')
+[JSON file](https://nontapatnon.github.io/python-course-master/other/animals-1.json 'Link title')
 
+### Iterating over dictionaries
+Dictionaries can be iterated over, just like a list. However, a dictionary, **unlike a list**, does not keep the order of the values stored in it. To iterate over key value pairs, use the following syntax:
 
-|
-|
+```
+phonebook = {'Nonny': 938477566, 'Lawrence': 938377264}
+for name, number in phonebook.items():
+    print("Phone number of %s is %d" % (name, number))
+```
+
 |
 |
 |
