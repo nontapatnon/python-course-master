@@ -700,7 +700,7 @@ phonebook["Nonny"] = 938477566
 phonebook["Lawrence"] = 938377264
 print(phonebook)
 ```
-<img src="./src_img/json.png"
+<img src="../src_img/json.png"
      alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 
