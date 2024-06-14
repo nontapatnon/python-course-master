@@ -64,7 +64,7 @@ if x == 1:
 
 ## >Variables and Types
 
-Python is completely object oriented, and not "statically typed". You do not need to declare variables before using them, or declare their type. Every variable in Python is an object.
+Python is completely object oriented, and **not "statically typed"**. You do not need to declare variables before using them, or declare their type. Every variable in Python is an object.
 
 ### Numbers
 Python supports two types of numbers:
@@ -122,6 +122,11 @@ two = 2
 hello = "hello"
 print(one + two + hello)
 ```
+
+<img src=./src_img/reserverdwords.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+
 ---
 
 ## >Lists
