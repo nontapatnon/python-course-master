@@ -701,6 +701,15 @@ print('Box a volume a is %s box b' % Box.compare(a, b))
 
 ```
 ## >Dictionaries
+A dictionary is a data type similar to arrays, but works with **keys** and **values** instead of **indexes**. Each value stored in a dictionary can be accessed using a key, which is any type of object (a string, a number, a list, etc.) instead of using its index to address it.
+
+```
+phonebook = {}
+phonebook["Nonny"] = 938477566
+phonebook["Lawrence"] = 938377264
+print(phonebook)
+```
+
 |
 |
 |
