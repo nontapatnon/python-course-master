@@ -736,7 +736,7 @@ for number in phonebook.values():
     print("Phone number is %d" % number)
 ```
 ### Removing a value
-To remove a specified index
+To remove a specified index.
 
 |
 |
