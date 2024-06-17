@@ -270,7 +270,6 @@ print("I am %.2f years old" % test)
 ```
 test = 15
 print("I am %x years old" % test)
-print("I am %X years old" % test)
 ```
 
 <img src="../src_img/int_hex.png"
