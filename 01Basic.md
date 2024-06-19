@@ -5,7 +5,7 @@ title: 01 Basics
 
 * [Hello, World!](#>-hello-world)
 * [Variables and Types](#variables-and-types)
-* [Lists and Tuples](#lists)
+* [Lists and Tuples](#lists-and-tuples)
 * [Dictionaries](#dictionaries)
 * [Basic Operators](#basic-operators)
 * [String Formatting](#string-formatting)
