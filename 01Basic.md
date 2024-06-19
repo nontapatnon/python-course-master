@@ -145,6 +145,7 @@ A python keyword is a reserved word which **you can’t use** as a name of your 
 number = 1 + 2 * 3 / 4.0
 print(number)
 ```
+
 Another operator available is the **modulo (%)** operator, which returns the integer remainder of the division. dividend % divisor = remainder.
 ```
 remainder = 11 % 3
