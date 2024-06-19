@@ -689,6 +689,38 @@ phonebook = {'Nonny': 938477566, 'Lawrence': 938377264}
 for number in phonebook.values():
     print("Phone number is %d" % number)
 ```
+### Nested Dictionaries
+
+A dictionary can contain dictionaries, this is called nested dictionaries.
+
+```
+child1 = {
+  "name" : "Emil",
+  "year" : 2004
+}
+child2 = {
+  "name" : "Tobias",
+  "year" : 2007
+}
+child3 = {
+  "name" : "Linus",
+  "year" : 2011
+}
+
+myfamily = {
+  "child1" : child1,
+  "child2" : child2,
+  "child3" : child3
+}
+
+print(myfamily["child2"]["name"])
+
+# for x, obj in myfamily.items():
+#   print(x)
+
+#   for y in obj:
+#     print(y + ':', obj[y])
+```
 ---
 
 ## >Python Comprehension
