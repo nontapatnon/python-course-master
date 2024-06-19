@@ -5,7 +5,7 @@ title: 01 Basics
 
 * [Hello, World!](#>-hello-world)
 * [Variables and Types](#variables-and-types)
-* [Lists](#lists)
+* [Lists and Tuples](#lists)
 * [Dictionaries](#dictionaries)
 * [Basic Operators](#basic-operators)
 * [String Formatting](#string-formatting)
@@ -129,7 +129,9 @@ A python keyword is a reserved word which **you can’t use** as a name of your 
 
 ---
 
-## >Lists
+## >Lists and Tuples
+
+### Lists
 Lists are very similar to arrays. They can contain any type of variable, and they can contain as many variables as you wish. Lists can also be iterated over in a very simple manner.
 
 <img src="../src_img/python-list-index.png"
