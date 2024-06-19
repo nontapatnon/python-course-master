@@ -13,7 +13,7 @@ title: 01 Basics
 * [Loops](#loops)
 * [Functions](#functions)
 * [Dictionaries](#dictionaries)
-* [Data Comprehension](#data-comprehension)
+* [Python Comprehension](#python-comprehension)
 * [Classes and Objects](#classes-and-objects)
 * [Modules and Packages](#modules-and-packages)
 
@@ -690,7 +690,7 @@ for number in phonebook.values():
 ```
 ---
 
-## >Data Comprehension
+## >Python Comprehension
 
 ### List Comprehension
 List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.
@@ -722,7 +722,23 @@ print(newlist)
 newlist = [x for x in fruits if x != "apple"]
 print(newlist)
 ```
+```
+squares = [x**2 for x in range(10)]   
+print(squares)
+```
 
+### Set Comprehension
+
+```
+sentence = "The cat in the hat had two sidekicks, thing one and thing two."
+
+words = sentence.lower().replace('.', '').replace(',', '').split()
+unique_words = {word for word in words}
+
+print(words)
+print(unique_words)
+
+```
 
 ---
 ## >Classes and Objects
