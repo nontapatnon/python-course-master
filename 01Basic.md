@@ -5,10 +5,10 @@ title: 01 Basics
 
 * [Hello, World!](#>-hello-world)
 * [Variables and Types](#variables-and-types)
-* [Lists and Tuples](#lists-and-tuples)
-* [Dictionaries](#dictionaries)
 * [Basic Operators](#basic-operators)
 * [String Formatting](#string-formatting)
+* [Lists and Tuples](#lists-and-tuples)
+* [Dictionaries](#dictionaries)
 * [Conditions](#conditions)
 * [Loops](#loops)
 * [Functions](#functions)
@@ -127,6 +127,116 @@ A python keyword is a reserved word which **you can’t use** as a name of your 
 <img src="../src_img/reserverdwords.png"
      alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
+---
+
+---
+## >Basic Operators
+### Arithmetic Operators
+
+<img src="../src_img/syntax.png"
+    alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+
+ **The addition, subtraction, multiplication, and division** operators can be used with numbers.
+
+```
+number = 1 + 2 * 3 / 4.0
+print(number)
+```
+Another operator available is the **modulo (%)** operator, which returns the integer remainder of the division. dividend % divisor = remainder.
+```
+remainder = 11 % 3
+print(remainder)
+```
+Using **two multiplication symbols** makes a power relationship.
+```
+squared = 7 ** 2
+cubed = 2 ** 3
+print(squared)
+print(cubed)
+```
+### Using Operators with Strings
+Concatenating **strings** using the **addition operator**
+```
+helloworld = "hello" + " " + "world"
+print(helloworld)
+```
+
+### Using Operators with Lists
+**Lists** can be joined with the **addition operators**
+```
+even_numbers = [2,4,6,8]
+odd_numbers = [1,3,5,7]
+all_numbers = odd_numbers + even_numbers
+print(all_numbers)
+```
+Just as in **strings**, Python supports forming new **lists** with a repeating sequence using the **multiplication operator**
+```
+print([1,2,3] * 3)
+```
+---
+
+## >String Formatting
+Python uses C-style string formatting to create new, formatted strings. The **"%"** operator is used to format a set of variables enclosed in a **"tuple"** (a fixed size list), together with a format string, which contains normal text together with **"argument specifiers"**, special symbols like **"%s"** and **"%d"**.
+```
+name = "John"
+print("Hello, %s!" % name)
+```
+To use two or more argument specifiers, use a tuple (parentheses):
+```
+name = "John"
+age = 23
+print("%s is %d years old." % (name, age))
+```
+Any object which is not a string can be formatted using the %s operator as well. The string which returns from the "repr" method of that object is formatted as the string.
+```
+mylist = [1,2,3]
+print("A list: %s" % mylist)
+```
+
+**Here are some basic argument specifiers you should know:**
+
+* **%s** - String (or any object with a string representation, like numbers)
+```
+test = "a book"
+print("This is %s !" % test)
+```
+
+* **%d** - Integers
+```
+test = 19
+print("I am %d years old" % test)
+```
+
+* **%f** - Floating point numbers
+```
+test = 190.985
+print("I am %d years old" % test)
+```
+
+* **%.<*number of digits*>f** - Floating point numbers with a fixed amount of digits to the right of the dot.
+```
+test = 190.985
+print("I am %.2f years old" % test)
+```
+
+* **%x, %X** - Integers in hex representation (lowercase/uppercase)
+```
+test = 15
+print("I am %x years old" % test)
+```
+
+<img src="../src_img/int_hex.png"
+     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+### Exercise
+You will need to write a format string which prints out the data using the following syntax: **Hello John Doe. Your current balance is $53.44.**
+```
+data = ("John", "Doe", 53.44)
+format_string = "Hello"
+
+print(format_string ... % data)
+```
 ---
 
 ## >Lists and Tuples
@@ -258,114 +368,6 @@ for number in phonebook.values():
     print("Phone number is %d" % number)
 ```
 ---
-## >Basic Operators
-### Arithmetic Operators
-
-<img src="../src_img/syntax.png"
-    alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
-
-
- **The addition, subtraction, multiplication, and division** operators can be used with numbers.
-
-```
-number = 1 + 2 * 3 / 4.0
-print(number)
-```
-Another operator available is the **modulo (%)** operator, which returns the integer remainder of the division. dividend % divisor = remainder.
-```
-remainder = 11 % 3
-print(remainder)
-```
-Using **two multiplication symbols** makes a power relationship.
-```
-squared = 7 ** 2
-cubed = 2 ** 3
-print(squared)
-print(cubed)
-```
-### Using Operators with Strings
-Concatenating **strings** using the **addition operator**
-```
-helloworld = "hello" + " " + "world"
-print(helloworld)
-```
-
-### Using Operators with Lists
-**Lists** can be joined with the **addition operators**
-```
-even_numbers = [2,4,6,8]
-odd_numbers = [1,3,5,7]
-all_numbers = odd_numbers + even_numbers
-print(all_numbers)
-```
-Just as in **strings**, Python supports forming new **lists** with a repeating sequence using the **multiplication operator**
-```
-print([1,2,3] * 3)
-```
----
-
-## >String Formatting
-Python uses C-style string formatting to create new, formatted strings. The **"%"** operator is used to format a set of variables enclosed in a **"tuple"** (a fixed size list), together with a format string, which contains normal text together with **"argument specifiers"**, special symbols like **"%s"** and **"%d"**.
-```
-name = "John"
-print("Hello, %s!" % name)
-```
-To use two or more argument specifiers, use a tuple (parentheses):
-```
-name = "John"
-age = 23
-print("%s is %d years old." % (name, age))
-```
-Any object which is not a string can be formatted using the %s operator as well. The string which returns from the "repr" method of that object is formatted as the string.
-```
-mylist = [1,2,3]
-print("A list: %s" % mylist)
-```
-
-**Here are some basic argument specifiers you should know:**
-
-* **%s** - String (or any object with a string representation, like numbers)
-```
-test = "a book"
-print("This is %s !" % test)
-```
-
-* **%d** - Integers
-```
-test = 19
-print("I am %d years old" % test)
-```
-
-* **%f** - Floating point numbers
-```
-test = 190.985
-print("I am %d years old" % test)
-```
-
-* **%.<*number of digits*>f** - Floating point numbers with a fixed amount of digits to the right of the dot.
-```
-test = 190.985
-print("I am %.2f years old" % test)
-```
-
-* **%x, %X** - Integers in hex representation (lowercase/uppercase)
-```
-test = 15
-print("I am %x years old" % test)
-```
-
-<img src="../src_img/int_hex.png"
-     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
-
-### Exercise
-You will need to write a format string which prints out the data using the following syntax: **Hello John Doe. Your current balance is $53.44.**
-```
-data = ("John", "Doe", 53.44)
-format_string = "Hello"
-
-print(format_string ... % data)
-```
----
 ## >Conditions
 Python uses **boolean logic** to evaluate conditions. The boolean values True and False are returned when an expression is compared or evaluated. 
 
@@ -389,6 +391,7 @@ if name == "Nonny" and age == 18:
 if name == "Nonny" or name == "Lawrence":
     print("Your name is either Nonny or Lawrence.")
 ```
+
 ```
 name = "Nonny"
 age = 14
