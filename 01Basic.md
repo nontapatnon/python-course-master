@@ -18,7 +18,7 @@ title: 01 Basics
 * [Modules and Packages](#modules-and-packages)
 
 ## >Hello World
-Python is a very simple language, and has a very straightforward syntax. The simplest directive in Python is the "print" directive - it simply prints out a line. 
+Python is a very simple language, and has a very straightforward syntax. The simplest directive in Python is the "print" directive - it simply prints out a line.
 
 **Python**
 ```
