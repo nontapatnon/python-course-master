@@ -9,10 +9,10 @@ title: 01 Basics
 * [String Formatting](#string-formatting)
 * [Lists and Tuples](#lists-and-tuples)
 * [Sets](#sets)
-* [Dictionaries](#dictionaries)
 * [Conditions](#conditions)
 * [Loops](#loops)
 * [Functions](#functions)
+* [Dictionaries](#dictionaries)
 * [Classes and Objects](#classes-and-objects)
 * [Modules and Packages](#modules-and-packages)
 
@@ -392,50 +392,9 @@ print(set3)
 
 <img src="../src_img/set2.png"
      alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
-     
+
 ---
 
-## >Dictionaries
-A dictionary is a data type similar to arrays, but works with **keys** and **values** instead of **indexes**. Each value stored in a dictionary can be accessed using a key, which is any type of object (a string, a number, a list, etc.) instead of using its index to address it.
-
-<img src="../src_img/dict.png"
-     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
-
-
-```
-phonebook = {}
-phonebook["Nonny"] = 938477566
-phonebook["Lawrence"] = 938377264
-print(phonebook)
-```
-
-[JSON file](https://nontapatnon.github.io/python-course-master/other/animals-1.json 'Link title')
-
-<img src="../src_img/json.png"
-     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
-
-
-### Iterating over dictionaries
-Dictionaries can be iterated over, just like a list. However, a dictionary, **unlike a list**, does not keep the order of the values stored in it. To iterate over key value pairs, use the following syntax:
-
-`.items()`
-```
-phonebook = {'Nonny': 938477566, 'Lawrence': 938377264}
-for name, number in phonebook.items():
-    print("Phone number of %s is %d" % (name, number))
-```
-`.keys()`
-```
-phonebook = {'Nonny': 938477566, 'Lawrence': 938377264}
-for name in phonebook.keys():
-    print("Name is %s" % name)
-```
-`.values()`
-```
-phonebook = {'Nonny': 938477566, 'Lawrence': 938377264}
-for number in phonebook.values():
-    print("Phone number is %d" % number)
-```
 ---
 ## >Conditions
 Python uses **boolean logic** to evaluate conditions. The boolean values True and False are returned when an expression is compared or evaluated. 
@@ -687,6 +646,48 @@ xxx
 ```
 ---
 
+## >Dictionaries
+A dictionary is a data type similar to arrays, but works with **keys** and **values** instead of **indexes**. Each value stored in a dictionary can be accessed using a key, which is any type of object (a string, a number, a list, etc.) instead of using its index to address it.
+
+<img src="../src_img/dict.png"
+     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+
+```
+phonebook = {}
+phonebook["Nonny"] = 938477566
+phonebook["Lawrence"] = 938377264
+print(phonebook)
+```
+
+[JSON file](https://nontapatnon.github.io/python-course-master/other/animals-1.json 'Link title')
+
+<img src="../src_img/json.png"
+     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+
+### Iterating over dictionaries
+Dictionaries can be iterated over, just like a list. However, a dictionary, **unlike a list**, does not keep the order of the values stored in it. To iterate over key value pairs, use the following syntax:
+
+`.items()`
+```
+phonebook = {'Nonny': 938477566, 'Lawrence': 938377264}
+for name, number in phonebook.items():
+    print("Phone number of %s is %d" % (name, number))
+```
+`.keys()`
+```
+phonebook = {'Nonny': 938477566, 'Lawrence': 938377264}
+for name in phonebook.keys():
+    print("Name is %s" % name)
+```
+`.values()`
+```
+phonebook = {'Nonny': 938477566, 'Lawrence': 938377264}
+for number in phonebook.values():
+    print("Phone number is %d" % number)
+```
+---
 ## >Classes and Objects
 
 <img src="../src_img/oop1.png"
