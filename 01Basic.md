@@ -392,6 +392,7 @@ print(set3)
 
 <img src="../src_img/set2.png"
      alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
+     
 ---
 
 ## >Dictionaries
