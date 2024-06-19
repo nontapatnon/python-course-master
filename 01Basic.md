@@ -8,6 +8,7 @@ title: 01 Basics
 * [Basic Operators](#basic-operators)
 * [String Formatting](#string-formatting)
 * [Lists and Tuples](#lists-and-tuples)
+* [Sets](#sets)
 * [Dictionaries](#dictionaries)
 * [Conditions](#conditions)
 * [Loops](#loops)
@@ -324,6 +325,73 @@ print(type(thistuple))
 thistuple = ("apple")
 print(type(thistuple))
 ```
+---
+## >Sets
+A set is a collection which is **unordered**, **unchangeable**, and **unindexed**.
+```
+thisset = {"apple", "banana", "cherry"}
+print(thisset)
+```
+* Note: Set items are **unchangeable**, but you can remove items and add new items.
+
+<img src="../src_img/set0.png"
+     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+
+### Union
+The `union()` method returns a new set with all items from both sets.
+
+```
+set1 = {"a", "b", "c"}
+set2 = {1, 2, 3}
+
+set3 = set1.union(set2)
+# set3 = set1 | set2
+print(set3)
+```
+
+### Intersection
+**Keep ONLY the duplicates**
+
+The `intersection()` method will return a new set, that only contains the items that are present in both sets.
+```
+set1 = {"apple", "banana", "cherry"}
+set2 = {"google", "microsoft", "apple"}
+
+set3 = set1.intersection(set2)
+# set3 = set1 & set2
+print(set3)
+```
+
+### Difference
+The `difference()` method will return a new set that will contain only the items from the first set that are not present in the other set.
+
+```
+set1 = {"apple", "banana", "cherry"}
+set2 = {"google", "microsoft", "apple"}
+
+set3 = set1.difference(set2)
+# set3 = set1 - set2
+print(set3)
+```
+
+### Symmetric Differences
+The `symmetric_difference()` method will keep only the elements that are NOT present in both sets.
+
+```
+set1 = {"apple", "banana", "cherry"}
+set2 = {"google", "microsoft", "apple"}
+
+set3 = set1.symmetric_difference(set2)
+# set3 = set1 ^ set2
+print(set3)
+```
+
+<img src="../src_img/set1.png"
+     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+<img src="../src_img/set2.png"
+     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 ---
 
 ## >Dictionaries
