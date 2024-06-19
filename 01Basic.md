@@ -125,8 +125,7 @@ print(one + two + hello)
 ### Reserved Words
 A python keyword is a reserved word which **you can’t use** as a name of your variable, class, function etc. These keywords have a special meaning and they are used for special purposes in Python programming language.
 <img src="../src_img/reserverdwords.png"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 ---
 
@@ -134,9 +133,7 @@ A python keyword is a reserved word which **you can’t use** as a name of your 
 Lists are very similar to arrays. They can contain any type of variable, and they can contain as many variables as you wish. Lists can also be iterated over in a very simple manner.
 
 <img src="../src_img/python-list-index.png"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
-<br />
+     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 **try:**
 ```
