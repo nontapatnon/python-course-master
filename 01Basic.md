@@ -733,13 +733,28 @@ print(squares)
 sentence = "The cat in the hat had two sidekicks, thing one and thing two."
 
 words = sentence.lower().replace('.', '').replace(',', '').split()
+
 unique_words = {word for word in words}
+# unique_words = {word for word in words if len(word) <= 3}
 
-print(words)
+print(type(words))
 print(unique_words)
-
 ```
 
+
+### Nested Set Comprehensions
+
+```
+sentence = "The cat in the hat had two sidekicks, thing one and thing two."
+words = sentence.lower().replace('.', '').replace(',', '').split()
+vowels = ['a', 'e', 'i', 'o', 'u']
+
+consonants1 = {frozenset({letter for letter in word if letter not in vowels}) for word in words}
+consonants2 = {word for word in words}
+
+print(consonants1)
+print(consonants2)
+```
 ---
 ## >Classes and Objects
 
