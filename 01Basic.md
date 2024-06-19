@@ -176,11 +176,49 @@ print("I love " + strings[...] + str(numbers[...])  + str(numbers[...]) + " more
 <img src="../src_img/list2.png"
      alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
+### Tuples 
+Tuples are used to store multiple items in a single variable.
 
+Tuple items are ordered, unchangeable, and allow duplicate values. A tuple is a collection which is ordered and unchangeable.
+
+
+```
+mytuple = ("apple", "banana", "cherry")
+print(mytuple)
+print(mytuple[0])
+print(mytuple[1])
+print(mytuple[2])
+```
+
+Tuple items are indexed, the first item has index [0], the second item has index [1] etc.
+
+```
+mytuple = ("apple", "banana", "cherry")
+print(mytuple[1])
+mytuple[1] = "coconut"
+print(mytuple[1])
+```
+* **Orders** - When we say that tuples are ordered, it means that the items have a defined order, and that order will not change.
+* **Unchangeable** - Tuples are unchangeable, meaning that we cannot change, add or remove items after the tuple has been created.
+* **Allow Duplicates** - Since tuples are indexed, they can have items with the same value (like Lists)
+
+#### Create Tuple With One Item
+
+To create a tuple with only one item, you have to add a comma after the item, otherwise Python will not recognize it as a tuple.
+
+```
+thistuple = ("apple",)
+print(type(thistuple))
+
+#NOT a tuple
+thistuple = ("apple")
+print(type(thistuple))
+```
 ---
 
 ## >Dictionaries
 A dictionary is a data type similar to arrays, but works with **keys** and **values** instead of **indexes**. Each value stored in a dictionary can be accessed using a key, which is any type of object (a string, a number, a list, etc.) instead of using its index to address it.
+
 <img src="../src_img/dict.png"
      alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
