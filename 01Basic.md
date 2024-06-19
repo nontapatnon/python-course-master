@@ -175,14 +175,18 @@ print("I love " + strings[...] + str(numbers[...])  + str(numbers[...]) + " more
 ```
 
 <img src="../src_img/list2.png"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
-<br />
+     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
+
 
 ---
 
 ## >Basic Operators
 ### Arithmetic Operators
+
+<img src="../src_img/syntax.png"
+    alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+
  **The addition, subtraction, multiplication, and division** operators can be used with numbers.
 
 ```
