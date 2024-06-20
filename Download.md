@@ -29,9 +29,17 @@ title: Download
 # print(type(number))
 
 # Float
-number = 8.135464654
-print(number)
-print(round(number, 2))
-print(type(number))
+# number = 8.135464654
+# print(number)
+# print(round(number, 2))
+# print(type(number))
+
+# String or str
+text = "123"
+
+print(type(text))
+print(text)
+print(123)
+
 
 ```
