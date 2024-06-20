@@ -63,6 +63,7 @@ if x == 1:
     print("x is 1.")
 ```
 ---
+---
 
 ## >Variables and Types
 
@@ -130,8 +131,8 @@ A python keyword is a reserved word which **you can’t use** as a name of your 
      alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 ---
-
 ---
+
 ## >Basic Operators
 ### Arithmetic Operators
 
@@ -177,6 +178,7 @@ Just as in **strings**, Python supports forming new **lists** with a repeating s
 ```
 print([1,2,3] * 3)
 ```
+---
 ---
 
 ## >String Formatting
@@ -240,6 +242,7 @@ format_string = "Hello"
 
 print(format_string ... % data)
 ```
+---
 ---
 
 ## >Lists and Tuples
@@ -328,6 +331,8 @@ thistuple = ("apple")
 print(type(thistuple))
 ```
 ---
+---
+
 ## >Sets
 A set is a collection which is **unordered**, **unchangeable**, and **unindexed**.
 ```
@@ -396,8 +401,8 @@ print(set3)
      alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 ---
-
 ---
+
 ## >Conditions
 Python uses **boolean logic** to evaluate conditions. The boolean values True and False are returned when an expression is compared or evaluated. 
 
@@ -481,6 +486,7 @@ Using **"not"** before a boolean expression inverts it.
 print(not False) # Prints out True
 print((not False) == (False)) # Prints out False
 ```
+---
 ---
 
 ## >Loops
@@ -578,6 +584,7 @@ for number in numbers:
     ...
 ```
 ---
+---
 
 ## >Functions
 ### What are Functions?
@@ -646,6 +653,7 @@ xxx
 ...
 ...
 ```
+---
 ---
 
 ## >Dictionaries
@@ -722,6 +730,7 @@ print(myfamily["child2"]["name"])
 #     print(y + ':', obj[y])
 ```
 ---
+---
 
 ## >Python Comprehension
 
@@ -789,6 +798,8 @@ print(consonants1)
 print(consonants2)
 ```
 ---
+---
+
 ## >Classes and Objects
 
 <img src="../src_img/oop1.png"
@@ -950,6 +961,7 @@ print('Box a volume a is %s box b' % Box.compare(a, b))
 
 ```
 ---
+---
 
 ### Removing a value
 To remove a specified index.
@@ -970,4 +982,8 @@ To remove a specified index.
 |
 |
 |
+
+---
+---
+
 ## >Modules and Packages
