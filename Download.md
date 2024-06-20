@@ -4,13 +4,5 @@ title: Download
 ---
 
 
-# Nonnny
+* For Python script in class [Download](https://nontapatnon.github.io/python-course-master/teaching/python.py)
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
