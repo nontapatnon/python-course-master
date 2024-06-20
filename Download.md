@@ -14,15 +14,24 @@ title: Download
 ### For Python script in class are below
 
 ```
-one = 1
-two = 2
-three = one + two
-print(three)
+# First Python Programming
 
-hello = "hello"
-world = "world"
-helloworld = hello + " " + world
-print(helloworld)
+# print("Hello, World!")
 
-print("Strings")
+# Variables and Data Types
+
+# Numbes
+# Integer or int
+# number =  7
+
+# print(number)
+
+# print(type(number))
+
+# Float
+number = 8.135464654
+print(number)
+print(round(number, 2))
+print(type(number))
+
 ```
