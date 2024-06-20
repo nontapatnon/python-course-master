@@ -21,9 +21,9 @@
       {% if node.title != null %}
         {% if node.layout == "page" %}
           <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}">{{ node.title }}</a>
-        {% elif node.layout == "page888" %}
+        {% endif %}
+        {% if node.layout == "page888" %}
           <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}">{{ node.title }}</a>
-
         {% endif %}
       {% endif %}
     {% endfor %}
