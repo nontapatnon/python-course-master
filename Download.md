@@ -58,13 +58,47 @@ def play_game():
     return result
 
 def main():
+    print("Game started")
+    # Use the main_screen object from the draw module
+    draw.main_screen
     result = play_game()
     draw.draw_game(result)
+    draw.clear_screen()
 
 # this means that if this script is executed, then 
 # main() will be executed
 if __name__ == '__main__':
     main()
+
+'''
+# option2 Importing module objects to the current namespace
+# import the draw module
+
+from draw import draw_game, clear_screen, main_screen
+
+def play_game():
+    result = "Player won!"
+    return result
+    
+def main():
+    print("Game started")
+    main_screen
+    result = play_game()
+    draw_game(result)
+    clear_screen()
+
+# ----------------------------------
+# option3 Importing all objects from a module
+# import the draw module
+from draw import *
+
+def main():
+    result = play_game()
+    draw_game(result)
+
+# ----------------------------------
+
+'''
 
 '''
 # option2 Importing module objects to the current namespace
@@ -95,8 +129,15 @@ def main():
 # draw.py
 
 def draw_game(result):
-    print(f"Drawing game result: {result}")
+    print(f"Game result: {result}")
 
 def clear_screen():
     print("Screen cleared")
+
+class Screen:
+    def __init__(self):
+        print("Screen initialized")
+
+# initialize main_screen as a singleton
+main_screen = Screen()
 ```
