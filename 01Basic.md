@@ -1022,28 +1022,6 @@ print('Box b color = %s' % b.color)
 print('Box a volume a is %s box b' % Box.compare(a, b))
 
 ```
----
----
-
-### Removing a value
-To remove a specified index.
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
 
 ---
 ---
