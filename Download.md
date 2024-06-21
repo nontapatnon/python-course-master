@@ -11,7 +11,7 @@ title: Download
 * For Python script in class [This](https://nontapatnon.github.io/python-course-master/Teaching/python.txt 'Link title') -->
 
 
-### For the Python script in this class (July 2024) is below:
+## For the Python script in this class (July 2024) is below:
 
 ```
 # First Python Programming
@@ -43,9 +43,9 @@ print(123)
 
 ```
 
-### Modules and Packages
+## Modules and Packages
 
-**gamy.py**
+**game.py**
 ```
 # game.py
 
