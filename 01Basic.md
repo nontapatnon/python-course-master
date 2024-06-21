@@ -400,6 +400,9 @@ print(set3)
 <img src="../src_img/set2.png"
      alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
+<img src="../src_img/list_tuple_set_dic.png"
+     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
+
 ---
 ---
 
