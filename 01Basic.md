@@ -675,7 +675,7 @@ print(phonebook)
 <img src="https://nontapatnon.github.io/python-course-master/src_img/json.png"
      alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
-
+example to read json file to table ()
 ```
 import pandas as pd
 import requests
@@ -702,6 +702,13 @@ df = df.rename(columns={'foods.likes': 'foods_likes', 'foods.dislikes': 'foods_d
 print(df)
 
 ```
+**results:**
+
+|   | name     | species | foods_likes     | foods_dislikes |
+|---|----------|---------|-----------------|----------------|
+| 0 | Meowsy   | cat     | tuna, catnip    | ham, zucchini  |
+| 1 | Barky    | dog     | bones, carrots  | tuna           |
+| 2 | Purrpaws | cat     | mice            | cookies        |
 
 
 ### Iterating over dictionaries
