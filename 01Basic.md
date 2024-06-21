@@ -1035,6 +1035,8 @@ In programming, a module is **a piece of software** that has a specific function
 Modules in Python are just Python files with a **.py** extension. The name of the module is the same as the file name. A Python module can have a set of functions, classes, or variables defined and implemented. The example above includes two files:
 
 
+```
 mygame
 ├── game.py
 └── draw.py
+```
