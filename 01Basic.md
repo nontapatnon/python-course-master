@@ -820,6 +820,45 @@ print(consonants2)
     }
 ```
 
+### Set Comprehension
+Like **List Comprehension**, Python allows dictionary comprehensions. We can create dictionaries using simple expressions. A dictionary comprehension takes the form **{key: value for (key, value) in iterable}**
+
+```
+# Python code to demonstrate dictionary 
+# comprehension
+ 
+# Lists to represent keys and values
+keys = ['a','b','c','d','e']
+values = [1,2,3,4,5]  
+ 
+# but this line shows dict comprehension here  
+myDict = { k:v for (k,v) in zip(keys, values)}  
+ 
+# We can use below too
+# myDict = dict(zip(keys, values))  
+ 
+print (myDict)
+```
+
+```
+dic = dict.fromkeys(range(5), True)
+ 
+print(dic)
+```
+
+### Using nested dictionary comprehension
+
+```
+# given string
+l="GFG"
+ 
+# using dictionary comprehension
+dic = {
+    x: {y: x + y for y in l} for x in l
+}
+ 
+print(dic)
+```
 ---
 ---
 
