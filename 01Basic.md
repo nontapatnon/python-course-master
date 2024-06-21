@@ -124,7 +124,7 @@ print(one + two + hello)
 ```
 ### Reserved Words
 A python keyword is a reserved word which **you can’t use** as a name of your variable, class, function etc. These keywords have a special meaning and they are used for special purposes in Python programming language.
-<img src="../src_img/reserverdwords.png"
+<img src="https://nontapatnon.github.io/python-course-master/src_img/reserverdwords.png"
      alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 ---
@@ -133,7 +133,7 @@ A python keyword is a reserved word which **you can’t use** as a name of your 
 ## >Basic Operators
 ### Arithmetic Operators
 
-<img src="../src_img/syntax.png"
+<img src="https://nontapatnon.github.io/python-course-master/src_img/syntax.png"
     alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 
@@ -228,7 +228,7 @@ test = 15
 print("I am %x years old" % test)
 ```
 
-<img src="../src_img/int_hex.png"
+<img src="https://nontapatnon.github.io/python-course-master/src_img/int_hex.png"
      alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 ### Exercise
@@ -247,7 +247,7 @@ print(format_string ... % data)
 ### Lists
 Lists are very similar to arrays. They can contain any type of variable, and they can contain as many variables as you wish. Lists can also be iterated over in a very simple manner.
 
-<img src="../src_img/python-list-index.png"
+<img src="https://nontapatnon.github.io/python-course-master/src_img/python-list-index.png"
      alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 **try:**
@@ -286,7 +286,7 @@ strings.append(...)
 print("I love " + strings[...] + str(numbers[...])  + str(numbers[...]) + " more than" + strings[...])
 ```
 
-<img src="../src_img/list2.png"
+<img src="https://nontapatnon.github.io/python-course-master/src_img/list2.png"
      alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 ### Tuples 
@@ -338,7 +338,7 @@ print(thisset)
 ```
 * Note: Set items are **unchangeable**, but you can remove items and add new items.
 
-<img src="../src_img/set0.png"
+<img src="https://nontapatnon.github.io/python-course-master/src_img/set0.png"
      alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 
@@ -391,13 +391,13 @@ set3 = set1.symmetric_difference(set2)
 print(set3)
 ```
 
-<img src="../src_img/set1.png"
+<img src="https://nontapatnon.github.io/python-course-master/src_img/set1.png"
      alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
-<img src="../src_img/set2.png"
+<img src="https://nontapatnon.github.io/python-course-master/src_img/set2.png"
      alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
-<img src="../src_img/list_tuple_set_dic.png"
+<img src="https://nontapatnon.github.io/python-course-master/src_img/list_tuple_set_dic.png"
      alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 ---
@@ -447,7 +447,7 @@ if name in ["Nonny", "Lawrence"]:
     print("Your name is either Nonny or Lawrence.")
 ```
 Python uses indentation to define code blocks, instead of brackets. The standard Python indentation is **4 spaces**, although **tabs** and **any other space size will work**, as long as it is consistent.
-<img src="../src_img/indentation.png"
+<img src="https://nontapatnon.github.io/python-course-master/src_img/indentation.png"
      alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 ```
@@ -589,10 +589,10 @@ for number in numbers:
 ## >Functions
 ### What are Functions?
 Functions are a convenient way to divide your code into useful blocks, allowing us to order our code, make it more readable, reuse it and save some time. Also functions are a key way to define interfaces so programmers can share their code.
-<img src="../src_img/function_machine.png"
+<img src="https://nontapatnon.github.io/python-course-master/src_img/function_machine.png"
      alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
-<img src="../src_img/domain-and-range-of-a-function.png"
+<img src="https://nontapatnon.github.io/python-course-master/src_img/domain-and-range-of-a-function.png"
      alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 ```
@@ -659,7 +659,7 @@ xxx
 ## >Dictionaries
 A dictionary is a data type similar to arrays, but works with **keys** and **values** instead of **indexes**. Each value stored in a dictionary can be accessed using a key, which is any type of object (a string, a number, a list, etc.) instead of using its index to address it.
 
-<img src="../src_img/dict.png"
+<img src="https://nontapatnon.github.io/python-course-master/src_img/dict.png"
      alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 
@@ -672,7 +672,7 @@ print(phonebook)
 
 [JSON file](https://nontapatnon.github.io/python-course-master/other/animals-1.json 'Link title')
 
-<img src="../src_img/json.png"
+<img src="https://nontapatnon.github.io/python-course-master/src_img/json.png"
      alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 
