@@ -807,7 +807,7 @@ print(consonants2)
 # consonants1
 {'two', 'one', 'and', 'hat', 'in', 'the', 'had', 'thing', 'cat', 'sidekicks'}
 
-# consonants1
+# consonants2
 {
     frozenset({'d', 'h'}), 
     frozenset({'w', 't'}), 
