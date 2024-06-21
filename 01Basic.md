@@ -800,6 +800,26 @@ consonants2 = {word for word in words}
 print(consonants1)
 print(consonants2)
 ```
+
+```
+# output
+
+# consonants1
+{'two', 'one', 'and', 'hat', 'in', 'the', 'had', 'thing', 'cat', 'sidekicks'}
+
+# consonants1
+{
+    frozenset({'d', 'h'}), 
+    frozenset({'w', 't'}), 
+    frozenset({'h', 't'}), 
+    frozenset({'n'}), 
+    frozenset({'n', 'd'}), 
+    frozenset({'n', 'g', 'h', 't'}), 
+    frozenset({'c', 't'}), 
+    frozenset({'s', 'd', 'k', 'c'})
+    }
+```
+
 ---
 ---
 
