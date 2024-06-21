@@ -1044,8 +1044,11 @@ mygame
 Output after run `game.py`
 
 `Screen initialized`
+
 `Game started`
+
 `Game result: Player won!`
+
 `Screen cleared`
 
 The Python script `game.py` implements the game. It uses the function draw_game from the file `draw.py`, or in other words, the `draw` module that implements the logic for drawing the game on the screen.

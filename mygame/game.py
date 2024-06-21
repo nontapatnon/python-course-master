@@ -2,20 +2,17 @@
 
 # option1
 # import the draw module
-import draw
+from draw import draw_game, clear_screen, main_screen
 
 def play_game():
     result = "Player won!"
     return result
-
+    
 def main():
     print("Game started")
-    # Use the main_screen object from the draw module
-    draw.main_screen
-
+    main_screen
     result = play_game()
-    draw.draw_game(result)
-    draw.clear_screen()
+    draw_game(result)
 
 # this means that if this script is executed, then 
 # main() will be executed
@@ -28,7 +25,13 @@ if __name__ == '__main__':
 
 from draw import draw_game, clear_screen, main_screen
 
+def play_game():
+    result = "Player won!"
+    return result
+
 def main():
+    print("Game started")
+    main_screen
     result = play_game()
     draw_game(result)
 
