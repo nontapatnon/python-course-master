@@ -676,6 +676,34 @@ print(phonebook)
      alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 
+```
+import pandas as pd
+import requests
+
+# URL of the JSON file
+url = 'https://nontapatnon.github.io/python-course-master/other/animals-1.json'
+
+# Fetching the JSON data from the URL
+response = requests.get(url)
+data = response.json()
+
+# Normalize the JSON data into a flat table
+df = pd.json_normalize(data)
+
+# Convert lists in 'foods.likes' and 'foods.dislikes' to comma-separated strings
+df['foods.likes'] = df['foods.likes'].apply(lambda x: ', '.join(x))
+df['foods.dislikes'] = df['foods.dislikes'].apply(lambda x: ', '.join(x))
+
+# Rename the columns for clarity
+df = df.rename(columns={'foods.likes': 'foods_likes', 'foods.dislikes': 'foods_dislikes'})
+
+
+# Now df is ready to use
+print(df)
+
+```
+
+
 ### Iterating over dictionaries
 Dictionaries can be iterated over, just like a list. However, a dictionary, **unlike a list**, does not keep the order of the values stored in it. To iterate over key value pairs, use the following syntax:
 
