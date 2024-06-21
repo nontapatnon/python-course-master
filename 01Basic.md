@@ -1045,4 +1045,15 @@ Output after run `game.py`
 
 *"Drawing game result: **Player won!**"*
 
-...
+The Python script `game.py` implements the game. It uses the function draw_game from the file `draw.py`, or in other words, the `draw` module that implements the logic for drawing the game on the screen.
+
+```
+# draw.py
+
+def draw_game():
+    ...
+
+def clear_screen(screen):
+    ...
+```
+The draw module may look something like this:
