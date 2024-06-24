@@ -695,7 +695,7 @@ df['foods.likes'] = df['foods.likes'].apply(lambda x: ', '.join(x))
 df['foods.dislikes'] = df['foods.dislikes'].apply(lambda x: ', '.join(x))
 
 # Rename the columns for clarity
-df = df.rename(columns={'foods.likes': 'foods_likes', 'foods.dislikes': 'foods_dislikes'})
+df = df.rename(columns={'foods.likes': 'foods_likes', 'foods.dislikes': 'foods_dislikes'}) 
 
 
 # Now df is ready to use
@@ -732,6 +732,7 @@ phonebook = {'Nonny': 938477566, 'Lawrence': 938377264}
 for number in phonebook.values():
     print("Phone number is %d" % number)
 ```
+
 ### Nested Dictionaries
 
 A dictionary can contain dictionaries, this is called nested dictionaries.
@@ -764,5 +765,6 @@ print(myfamily["child2"]["name"])
 #   for y in obj:
 #     print(y + ':', obj[y])
 ```
+
 ---
 ---
