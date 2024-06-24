@@ -14,6 +14,8 @@ title: 01 Basics
 * [Functions](#functions)
 * [Dictionaries](#dictionaries)
 
+<iframe src="https://giphy.com/embed/l378aiPPFAGEsetIk" width="480" height="269" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/animation-sad-illustration-l378aiPPFAGEsetIk"></a></p>
+
 ## >Hello World
 Python is a very simple language, and has a very straightforward syntax. The simplest directive in Python is the "print" directive - it simply prints out a line.
 
