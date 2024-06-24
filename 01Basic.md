@@ -3,7 +3,7 @@ layout: page
 title: 01 Basics
 ---
 
-* [Hello, World!](#>-hello-world)
+* [Hello World](#>-hello-world)
 * [Variables and Types](#variables-and-types)
 * [Basic Operators](#basic-operators)
 * [String Formatting](#string-formatting)
