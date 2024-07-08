@@ -10,6 +10,8 @@ title: Resources
 
 * For Python script in class [This](https://nontapatnon.github.io/python-course-master/Teaching/python.txt 'Link title') -->
 
+[Lesson Plan](https://room-booking.notion.site/10c59f0a442643d8a449fd230c6755c0?v=62cde9a1dd7a445abe769a5fa809eb88&pvs=4 'Link title')
+
 ## Download:
 [Download Python 3.11.5](https://www.python.org/downloads/release/python-3115/ 'Link title')
 
