@@ -20,32 +20,147 @@ title: Resources
 ## For the Python script in this class (July 2024) is below:
 
 ```
-# First Python Programming
+# print("Hello Worlds!")
 
-# print("Hello, World!")
+# Numbers
+# luaren love ..
 
-# Variables and Data Types
+# Numbers
+# Integers. Float
 
-# Numbes
-# Integer or int
-# number =  7
+# mynumber = 7
+# print(type(mynumber))
 
-# print(number)
+# mynumber2 = 7.2
+# print(type(mynumber2))
 
-# print(type(number))
+# String
 
-# Float
-# number = 8.135464654
-# print(number)
-# print(round(number, 2))
-# print(type(number))
+# mystring = 'seven'
+# print(type(mystring))
 
-# String or str
-text = "123"
+# mynumber = 7 - 2.1
+# print(mynumber)
 
-print(type(text))
-print(text)
-print(123)
+# x = 686846886
+
+# ll = "laulen" + " " +  "3=49t=349t=3t_*^%+" + str(x)
+# print(ll)
+
+# nn, ll = 7, 3
+
+# print(ll)
+
+# pun = 7
+
+# ll = 3
+
+# nn = ll + 2
+
+# print(nn)
+
+# pun = 12
+# Pun = 7
+
+# print(Pun)
+
+# Basic Operators
+# print(5 + 6) # addition
+# print(6-5) # subtraction
+# print(6*5) # multiplication
+# print(6/5) # division
+
+# print(7 % 5) # modulus
+# print(2 % 2)
+# print(10 % 3)
+# print(11 % 2)
+
+# print(2 ** 2) # exponentiation
+# print(4 == 1) # eqaul to
+# Boolean = True, False
+# print(4 != 4) # not eqaul to
+
+# print(6 > 4) # greater than
+# print(6 < 4) # less than
+
+# print((1 + 2) * 3 / 4.0)
+# 2 * 3 = 6
+# 6 / 4.0 = 1.5
+# 1.5 + 1 = 2.5
+
+# ll = "laulen"
+# print(ll+ " nonny")
+
+# name = "John"
+# name2 = "nonny"
+# print("Hello," + name)
+# print("Hello,%s" % name2)
+
+# name = "John"
+# age = 27
+# print(name + " is " + str(age) + " years old")
+
+# print("%s is %d years old." % (name, age))
+
+# List
+# my_list = ["LL", 2 , "LL" ,True, None]
+# print(type(my_list))
+
+# print(type(my_list[-1]))
+
+# my_list.append("Bov")
+# my_list.append("Sert")
+
+# my_list.insert(1, "nonny")
+# my_list.remove("LL")
+
+# my_list.pop(0)
+
+# print(my_list.count(2))
+
+# my_list = ["LL", 2 , "LL" ,True, None]
+
+# my_list[0] = "nonny"
+
+# print(my_list)
+
+# Tuple
+
+# my_tuple = ("nonny", "LL", 12)
+# my_tuple[0] = "Bov" # TypeError: 'tuple' object does not support item assignment
+
+# print(my_tuple)
+
+# my_set = {"apple", "banana", "cherry"}
+
+# my_list = ["LL", [1, 12, 15], ("nonny", 12)]
+# print(my_list[2][1])
+
+# Sets
+# my_set1 = {"apple", "banana", "cherry"}
+# my_set2 = {1, 2, 3}
+
+# my_set3 = my_set1.union(my_set2)
+# print(my_set3)
+
+# {'banana', 1, 2, 3, 'cherry', 'apple'}
+# {1, 2, 3, 'cherry', 'banana', 'apple'}
+
+# set1 = {"apple", "banana", "cherry"}
+# set2 = {"google", "microsoft", "apple"}
+
+# set3 = set1.intersection(set2)
+# print(set3) # {'apple'}
+
+# set1 = {"apple", "banana", "cherry"}
+# set2 = {"google", "microsoft", "apple"}
+
+# set3 = set1.difference(set2)
+# # set3 = set1 - set2
+# print(set3)
+
+set1 = {"apple", "banana", "cherry", "apple"}
+print(set1)
 
 ```
 
