@@ -255,9 +255,85 @@ print(set1)
 #             print("bananie")
 #         print(x, y)
 
+#=============================================
+# ll = ("red", "big", "tasty")
+# ll.append(12)
+
+# ll = ("red", "big", "tasty")
+# print(ll)
+
+# ll = ll + (12,)
+# print(ll)
+# print(type((12)))
+#=============================================
+
+# Function
+
+
+# def func01(name = "Laulen", age = 16):
+#     # global sentence
+#     sentence = "Hello %s, age = %d " % (name,age)
+#     print(sentence)
+
+# func01("Bow", 18)
+
+
+# fruits = ["apple", "banana", "cherry"]
+
+# def my_function(food):
+#     for i in food:
+#         if i == "banana":
+#             print("BANANA")
+#         else:
+#             print("NOT BANANA")
+# my_function(fruits)
+
+
+# def my_function(x):
+#     y = 5 * x
+#     return y
+
+# print(my_function(5))
+
+# Lambda Function
+
+# lambda arguments : expression
+# x = lambda a : a + 10
+# print(x(5))
+
+# =============================
+# def func02(a):
+#     x = a + 10
+#     return x
+
+# print(func02(5))
+# =============================
+
+
 
 ```
+## BMI
+```
+def BMI(weight, height):
+    # bmi = ...
+    bmi = weight / (height / 100) ** 2
+    # 1 condition # thin
+    if bmi < 18.5:
+        category =  "Thin"
+    # 2 condition # normal
+    elif 18.5 <= bmi < 24.8:
+        category =  "Normal"
+    # 3 condition # overwuight
+    elif 25 <= bmi < 29.9:
+        category =  "Overwuight"
+    # 4 condition # obese
+    else:
+        category =  "Obese"
+    return "You are %s" % category
 
+print(BMI(80, 180))
+
+```
 ## Modules and Packages
 
 **game.py**
