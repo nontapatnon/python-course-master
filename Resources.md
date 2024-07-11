@@ -17,7 +17,7 @@ title: Resources
 
 [Download Visual Studio Code](https://code.visualstudio.com/Download 'Link title')
 
-## For the Python script in this class (July 2024) is below:
+## For the Python script in this class (8 July 2024) is below:
 
 ```
 # print("Hello Worlds!")
@@ -161,6 +161,100 @@ title: Resources
 
 set1 = {"apple", "banana", "cherry", "apple"}
 print(set1)
+
+```
+
+## For the Python script in this class (11 July 2024) is below:
+```
+# Conditions
+# True, False
+
+# x = 1
+# y = 2
+# print(x == y) # equals 
+# print(x != y) # not equals
+
+# and , or
+# name = "Lawrence"
+# age = 18
+
+# if name == "Nonny" and age == 19:
+#     print("OK")
+
+# name = "Nonny"
+# age = 18
+
+# if name == "Nonny":
+#     name = "LL"
+#     print("A")
+# elif name == "Lawrence": 
+#     print("B")
+# elif name == "Bow": 
+#     print("C")
+# else: 
+#     print("else")
+
+# print(name)
+
+# # List
+# list_name = ["Nonny", "Lawrence", "Bow"]
+
+# #Tuple
+# tuple_name = ("Nonny", "Lawrence", "Bow")
+
+# #Set
+# my_set = {"Nonny", "Lawrence", "Bow"}
+
+# if "Nonny" in list_name:
+#     print("YES")
+# else:
+#     print("NO")
+
+# Loops
+
+# while loops
+# number = 1
+
+# while number < 10:
+#     print("OK : ", number)
+#     number = number + 1 # number += 1
+#     if number == 5:
+#         break
+
+# for loops
+
+# list_fruits = ['apple', 'banana','cherry']
+
+# for i in list_fruits:
+#     i = i + " ff"
+#     print(i)
+ 
+# print(i)
+# [0,1,2,3,4,5,6,7,8,9]
+
+# list_01 = []
+
+# for i in "Pongsakorn":
+#     list_01.append(i)
+#     print(list_01)
+
+# print(list_01)
+
+# name = "Pongsakorn"
+# print(name)
+
+# name[0] = "W"
+# print(name)
+
+# adj = ["red", "big", "tasty"]
+# fruits = ["apple", "banana", "cherry"]
+
+# for x in adj:
+#     for y in fruits:
+#         if y == "banana":
+#             print("bananie")
+#         print(x, y)
+
 
 ```
 
