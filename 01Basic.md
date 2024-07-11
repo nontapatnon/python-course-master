@@ -161,6 +161,9 @@ cubed = 2 ** 3
 print(squared)
 print(cubed)
 ```
+<img src="https://nontapatnon.github.io/python-course-master/src_img/operations.png"
+    alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
+
 ### Using Operators with Strings
 Concatenating **strings** using the **addition operator**
 ```
