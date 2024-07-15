@@ -17,7 +17,256 @@ title: Resources
 
 [Download Visual Studio Code](https://code.visualstudio.com/Download 'Link title')
 
-## For the Python script in this class (8 July 2024) is below:
+## Code in Class:
+* [Class 15 Jul 2024](#class-15-jul-2024)
+* [Class 11 Jul 2024](#class-11-jul-2024)
+* [Class 8 Jul 2024](#class-8-jul-2024)
+* [BMI](#bmi)
+* [pack.py](#pack-py)
+* [main.py](#main-py)
+
+### Class 15 July 2024
+```
+# value = 'a'  # or 'b' or 'c'
+# x = 10
+
+# result = {
+#   'a': lambda x: x * 5,
+#   'b': lambda x: x + 7,
+#   'c': lambda x: x - 2
+# }[value](x)
+
+# print(result)
+
+# x = [1,2,3]
+
+# print(x[0].__doc__)
+
+
+# name = "Jane"
+# age = 25
+# money = 108.123
+
+# text = "hello, %s , You are %s years old" % (name, age)
+# print(text)
+
+# text = "hello, {} , You are {} years old".format(name, age)
+# print(text)
+
+# text = f"hello, {name} , You are {age} years old"
+# print(text)
+
+# text = f"Blance: {money:.2f}"
+# print(text)
+
+# Dictionaries
+
+# my_set = {1,2,3}
+# my_dict = {"A": [1,3,4], 
+#            "B": 2, "C": 3}
+
+
+# print(type(my_dict))
+# print(my_dict["A"][2])
+
+# for i in my_dict.values():
+#   print(i)
+
+# ==============================================
+# Switch
+# value = 'b' 
+# x = 10
+
+# result = {'a': lambda x: x * 5,
+#           'b': lambda x: x + 7,
+#           'c': lambda x: x - 2}[value](x)
+
+# print(result)
+# ==============================================
+
+# List Comprehension
+
+# fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+# newlist = []
+
+# # for x in fruits:
+# #   if "a" in x:
+# #     newlist.append(x)
+
+# newlist = [x for x in fruits if "a" in x]
+
+# print(newlist)
+
+# OOP object oriented programming
+
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def display_name(self):
+        print(self.name, "is employee name")
+
+# a49_1 = Person(name = "LL", age = 15)
+a49_1 = Person("LL",15)
+print(a49_1.name)
+print(a49_1.age)
+
+a49_1.display_name()
+
+```
+---
+
+### Class 11 Jul 2024
+```
+# Conditions
+# True, False
+
+# x = 1
+# y = 2
+# print(x == y) # equals 
+# print(x != y) # not equals
+
+# and , or
+# name = "Lawrence"
+# age = 18
+
+# if name == "Nonny" and age == 19:
+#     print("OK")
+
+# name = "Nonny"
+# age = 18
+
+# if name == "Nonny":
+#     name = "LL"
+#     print("A")
+# elif name == "Lawrence": 
+#     print("B")
+# elif name == "Bow": 
+#     print("C")
+# else: 
+#     print("else")
+
+# print(name)
+
+# # List
+# list_name = ["Nonny", "Lawrence", "Bow"]
+
+# #Tuple
+# tuple_name = ("Nonny", "Lawrence", "Bow")
+
+# #Set
+# my_set = {"Nonny", "Lawrence", "Bow"}
+
+# if "Nonny" in list_name:
+#     print("YES")
+# else:
+#     print("NO")
+
+# Loops
+
+# while loops
+# number = 1
+
+# while number < 10:
+#     print("OK : ", number)
+#     number = number + 1 # number += 1
+#     if number == 5:
+#         break
+
+# for loops
+
+# list_fruits = ['apple', 'banana','cherry']
+
+# for i in list_fruits:
+#     i = i + " ff"
+#     print(i)
+ 
+# print(i)
+# [0,1,2,3,4,5,6,7,8,9]
+
+# list_01 = []
+
+# for i in "Pongsakorn":
+#     list_01.append(i)
+#     print(list_01)
+
+# print(list_01)
+
+# name = "Pongsakorn"
+# print(name)
+
+# name[0] = "W"
+# print(name)
+
+# adj = ["red", "big", "tasty"]
+# fruits = ["apple", "banana", "cherry"]
+
+# for x in adj:
+#     for y in fruits:
+#         if y == "banana":
+#             print("bananie")
+#         print(x, y)
+
+#=============================================
+# ll = ("red", "big", "tasty")
+# ll.append(12)
+
+# ll = ("red", "big", "tasty")
+# print(ll)
+
+# ll = ll + (12,)
+# print(ll)
+# print(type((12)))
+#=============================================
+
+# Function
+
+
+# def func01(name = "Laulen", age = 16):
+#     # global sentence
+#     sentence = "Hello %s, age = %d " % (name,age)
+#     print(sentence)
+
+# func01("Bow", 18)
+
+
+# fruits = ["apple", "banana", "cherry"]
+
+# def my_function(food):
+#     for i in food:
+#         if i == "banana":
+#             print("BANANA")
+#         else:
+#             print("NOT BANANA")
+# my_function(fruits)
+
+
+# def my_function(x):
+#     y = 5 * x
+#     return y
+
+# print(my_function(5))
+
+# Lambda Function
+
+# lambda arguments : expression
+# x = lambda a : a + 10
+# print(x(5))
+
+# =============================
+# def func02(a):
+#     x = a + 10
+#     return x
+
+# print(func02(5))
+# =============================
+
+```
+---
+
+### Class 8 Jul 2024
 
 ```
 # print("Hello Worlds!")
@@ -163,156 +412,9 @@ set1 = {"apple", "banana", "cherry", "apple"}
 print(set1)
 
 ```
+---
 
-## For the Python script in this class (11 July 2024) is below:
-```
-# Conditions
-# True, False
-
-# x = 1
-# y = 2
-# print(x == y) # equals 
-# print(x != y) # not equals
-
-# and , or
-# name = "Lawrence"
-# age = 18
-
-# if name == "Nonny" and age == 19:
-#     print("OK")
-
-# name = "Nonny"
-# age = 18
-
-# if name == "Nonny":
-#     name = "LL"
-#     print("A")
-# elif name == "Lawrence": 
-#     print("B")
-# elif name == "Bow": 
-#     print("C")
-# else: 
-#     print("else")
-
-# print(name)
-
-# # List
-# list_name = ["Nonny", "Lawrence", "Bow"]
-
-# #Tuple
-# tuple_name = ("Nonny", "Lawrence", "Bow")
-
-# #Set
-# my_set = {"Nonny", "Lawrence", "Bow"}
-
-# if "Nonny" in list_name:
-#     print("YES")
-# else:
-#     print("NO")
-
-# Loops
-
-# while loops
-# number = 1
-
-# while number < 10:
-#     print("OK : ", number)
-#     number = number + 1 # number += 1
-#     if number == 5:
-#         break
-
-# for loops
-
-# list_fruits = ['apple', 'banana','cherry']
-
-# for i in list_fruits:
-#     i = i + " ff"
-#     print(i)
- 
-# print(i)
-# [0,1,2,3,4,5,6,7,8,9]
-
-# list_01 = []
-
-# for i in "Pongsakorn":
-#     list_01.append(i)
-#     print(list_01)
-
-# print(list_01)
-
-# name = "Pongsakorn"
-# print(name)
-
-# name[0] = "W"
-# print(name)
-
-# adj = ["red", "big", "tasty"]
-# fruits = ["apple", "banana", "cherry"]
-
-# for x in adj:
-#     for y in fruits:
-#         if y == "banana":
-#             print("bananie")
-#         print(x, y)
-
-#=============================================
-# ll = ("red", "big", "tasty")
-# ll.append(12)
-
-# ll = ("red", "big", "tasty")
-# print(ll)
-
-# ll = ll + (12,)
-# print(ll)
-# print(type((12)))
-#=============================================
-
-# Function
-
-
-# def func01(name = "Laulen", age = 16):
-#     # global sentence
-#     sentence = "Hello %s, age = %d " % (name,age)
-#     print(sentence)
-
-# func01("Bow", 18)
-
-
-# fruits = ["apple", "banana", "cherry"]
-
-# def my_function(food):
-#     for i in food:
-#         if i == "banana":
-#             print("BANANA")
-#         else:
-#             print("NOT BANANA")
-# my_function(fruits)
-
-
-# def my_function(x):
-#     y = 5 * x
-#     return y
-
-# print(my_function(5))
-
-# Lambda Function
-
-# lambda arguments : expression
-# x = lambda a : a + 10
-# print(x(5))
-
-# =============================
-# def func02(a):
-#     x = a + 10
-#     return x
-
-# print(func02(5))
-# =============================
-
-
-
-```
-## BMI
+### BMI
 ```
 def BMI(weight, height):
     # bmi = ...
@@ -334,6 +436,56 @@ def BMI(weight, height):
 print(BMI(80, 180))
 
 ```
+---
+
+### pack py
+```
+# pack.py
+
+import matplotlib.pyplot as plt
+
+class Circle:
+    """
+    The class Circle has the attribute redius and color.
+    """
+    # Constructor
+    def __init__(self, radius = 3, color = 'blue'):
+        self.radius = radius
+        self.color = color
+
+    # Method 1
+    def add_radius(self, r):
+        self.radius = self.radius + r
+        return(self.radius)
+    
+    # Method 2
+    def drawCircle(self):
+        plt.gca().add_patch(plt.Circle((0, 0), radius=self.radius, fc=self.color))
+        plt.axis('scaled')
+        plt.show()
+
+```
+---
+
+### main py
+```
+# main.py
+
+# import pack
+from pack import Circle
+import matplotlib.pyplot as plt
+# from pack import *
+
+red_circle = Circle(10, "red")
+
+# print(red_circle.__doc__)
+
+red_circle.drawCircle()
+
+```
+
+---
+<!-- 
 ## Modules and Packages
 
 **game.py**
@@ -431,4 +583,4 @@ class Screen:
 
 # initialize main_screen as a singleton
 main_screen = Screen()
-```
+``` -->
