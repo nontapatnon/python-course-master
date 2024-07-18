@@ -10,9 +10,57 @@ title: 03 Data Science
 | zebra stripes | are neat      |    33฿ |
 
 
-# Welcome to MkDocs
+# Pandas
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+
+## Series
+```
+import pandas as pd
+series = pd.Series(["A","B","AB","O"])
+series[4] = "O-"
+print(series)
+```
+
+## DataFrame
+```
+import pandas as pd
+data  = [1,2,3,4,5]
+df1 = pd.DataFrame(data)
+# display(df1)
+
+data = [['Alice', 21], ['Bob', 22], ['Cathy', 23]]
+df2 = pd.DataFrame(data, columns = ["Name", "Age"])
+df2
+```
+Output:
+
+| Name        | Age           |
+| ----------- |:-------------:|
+| Alice       | 21            |
+| Bob         | 22            |
+| Cathy       | 23            |
+
+```
+d = {'name' : pd.Series(['Alice','Bob','Cathy','Dave']),
+    'Age': pd.Series([21,22,23,24]),
+    'Score' : pd.Series([80,85,90,95])}
+
+df3 = pd.DataFrame(d)
+df3
+```
+Output:
+| Name        | Age           | SCore        |
+| ----------- |:-------------:|-------------:|
+| Alice       | 21            | 80           |
+| Bob         | 22            | 85           |
+| Cathy       | 23            | 90           |
+| Dave        | 24            | 95           |
+
+`df3.info()`
+
+
+
 
 ## Commands
 
