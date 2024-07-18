@@ -1,0 +1,10 @@
+id, name, salary, group
+1,alice,12000,1
+2,bob,10000,2
+3,cathy,12000,3
+4,delan,8000,3
+5,emily,15000,2
+6,frank,12000,1
+7,gorge,6000,2
+8,jeff,10000,1
+
