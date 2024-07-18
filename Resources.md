@@ -18,12 +18,34 @@ title: Resources
 [Download Visual Studio Code](https://code.visualstudio.com/Download 'Link title')
 
 ## Code in Class:
+* [Vending Machine](#vending-machine)
 * [Class 15 Jul 2024](#class-15-jul-2024)
 * [Class 11 Jul 2024](#class-11-jul-2024)
 * [Class 8 Jul 2024](#class-8-jul-2024)
 * [BMI](#bmi)
 * [pack.py](#pack-py)
 * [main.py](#main-py)
+
+<img src="https://nontapatnon.github.io/python-course-master/src_img/vending.png"
+    alt="Markdown Monster icon" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+### Vending Machine
+```
+x = [1000, 500, 100, 50, 20, 10, 5, 1]
+prod = {"coke": 150, "snack": 72, "milk": 54} 
+
+def cal_money(money, product):
+    prod2 = prod[product]
+    change_money = money - prod2
+    print(f"change_money : {change_money}")
+    for i in x:
+        money2 = change_money // i
+        print(f"{i} :", money2)
+        change_money = change_money % i # money %= i
+
+cal_money(money = 8500 , product= "coke")
+```
+---
 
 ### Class 15 July 2024
 ```
