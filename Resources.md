@@ -47,7 +47,7 @@ cal_money(money = 8500 , product= "coke")
 ```
 ---
 
-### Class 15 July 2024
+### Class 15 Jul 2024
 ```
 # value = 'a'  # or 'b' or 'c'
 # x = 10
