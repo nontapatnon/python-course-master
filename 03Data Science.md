@@ -1668,9 +1668,10 @@ fig.show()
     scrolling="no"
     width="100%"
     height="545px"
-    src="iframe_figures/figure_48.html"
+    src="https://nontapatnon.github.io/python-course-master/datascience/md_image_src/iframe_figures/figure_01.html"
     frameborder="0"
     allowfullscreen
+    style="display: block; margin-left: auto; margin-right: auto;"
 ></iframe>
 
 
@@ -1936,7 +1937,8 @@ fig.show()
     scrolling="no"
     width="100%"
     height="545px"
-    src="iframe_figures/figure_51.html"
+    src="https://nontapatnon.github.io/python-course-master/datascience/md_image_src/iframe_figures/figure_02.html"
     frameborder="0"
     allowfullscreen
+    style="display: block; margin-left: auto; margin-right: auto;"
 ></iframe>
