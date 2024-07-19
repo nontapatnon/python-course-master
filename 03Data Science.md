@@ -103,9 +103,9 @@ df2
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table border="1" class="dataframe" style="display: block; margin-left: auto; margin-right: auto;">
   <thead>
-    <tr style="display: block; margin-left: auto; margin-right: auto;">
+    <tr style="text-align: right;">
       <th></th>
       <th>Name</th>
       <th>Age</th>
@@ -160,9 +160,9 @@ df3
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table border="1" class="dataframe" style="display: block; margin-left: auto; margin-right: auto;">
   <thead>
-    <tr style="display: block; margin-left: auto; margin-right: auto;">
+    <tr style="text-align: right;">
       <th></th>
       <th>name</th>
       <th>Age</th>
@@ -275,9 +275,9 @@ df3
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table border="1" class="dataframe" style="display: block; margin-left: auto; margin-right: auto;">
   <thead>
-    <tr style="display: block; margin-left: auto; margin-right: auto;">
+    <tr style="text-align: right;">
       <th></th>
       <th>name</th>
       <th>Age</th>
@@ -338,9 +338,9 @@ df4
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table border="1" class="dataframe" style="display: block; margin-left: auto; margin-right: auto;">
   <thead>
-    <tr style="display: block; margin-left: auto; margin-right: auto;">
+    <tr style="text-align: right;">
       <th></th>
       <th>name</th>
       <th>Age</th>
@@ -402,9 +402,9 @@ df.head()
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table border="1" class="dataframe" style="display: block; margin-left: auto; margin-right: auto;">
   <thead>
-    <tr style="display: block; margin-left: auto; margin-right: auto;">
+    <tr style="text-align: right;">
       <th></th>
       <th>PassengerId</th>
       <th>Survived</th>
@@ -564,9 +564,9 @@ df[df['Survived'] == 0][['Name', 'Sex']]
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table border="1" class="dataframe" style="display: block; margin-left: auto; margin-right: auto;">
   <thead>
-    <tr style="display: block; margin-left: auto; margin-right: auto;">
+    <tr style="text-align: right;">
       <th></th>
       <th>Name</th>
       <th>Sex</th>
@@ -657,9 +657,9 @@ df.head()
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table border="1" class="dataframe" style="display: block; margin-left: auto; margin-right: auto;">
   <thead>
-    <tr style="display: block; margin-left: auto; margin-right: auto;">
+    <tr style="text-align: right;">
       <th></th>
       <th>PassengerId</th>
       <th>Survived</th>
@@ -779,9 +779,9 @@ df.head(10)
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table border="1" class="dataframe" style="display: block; margin-left: auto; margin-right: auto;">
   <thead>
-    <tr style="display: block; margin-left: auto; margin-right: auto;">
+    <tr style="text-align: right;">
       <th></th>
       <th>PassengerId</th>
       <th>Survived</th>
@@ -976,9 +976,9 @@ df.tail()
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table border="1" class="dataframe" style="display: block; margin-left: auto; margin-right: auto;">
   <thead>
-    <tr style="display: block; margin-left: auto; margin-right: auto;">
+    <tr style="text-align: right;">
       <th></th>
       <th>PassengerId</th>
       <th>Survived</th>
@@ -1114,9 +1114,9 @@ df.groupby(['Sex','Survived'])[['Survived']].count()
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table border="1" class="dataframe" style="display: block; margin-left: auto; margin-right: auto;">
   <thead>
-    <tr style="display: block; margin-left: auto; margin-right: auto;">
+    <tr style="text-align: right;">
       <th></th>
       <th></th>
       <th>Survived</th>
@@ -1266,9 +1266,9 @@ df_f
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table border="1" class="dataframe" style="display: block; margin-left: auto; margin-right: auto;">
   <thead>
-    <tr style="display: block; margin-left: auto; margin-right: auto;">
+    <tr style="text-align: right;">
       <th></th>
       <th>year</th>
       <th>month</th>
@@ -1391,9 +1391,9 @@ df_wide.head()
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table border="1" class="dataframe" style="display: block; margin-left: auto; margin-right: auto;">
   <thead>
-    <tr style="display: block; margin-left: auto; margin-right: auto;">
+    <tr style="text-align: right;">
       <th>month</th>
       <th>Apr</th>
       <th>Aug</th>
@@ -1592,9 +1592,9 @@ df.head()
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table border="1" class="dataframe" style="display: block; margin-left: auto; margin-right: auto;">
   <thead>
-    <tr style="display: block; margin-left: auto; margin-right: auto;">
+    <tr style="text-align: right;">
       <th></th>
       <th>sepal_length</th>
       <th>sepal_width</th>
@@ -1671,7 +1671,7 @@ fig.show()
     src="https://nontapatnon.github.io/python-course-master/md_image_src/iframe_figures/figure_01.html"
     frameborder="0"
     allowfullscreen
-    style="display: block; margin-left: auto; margin-right: auto;"
+    style="text-align: right;"
 ></iframe>
 
 
@@ -1700,9 +1700,9 @@ df.head()
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table border="1" class="dataframe" style="display: block; margin-left: auto; margin-right: auto;">
   <thead>
-    <tr style="display: block; margin-left: auto; margin-right: auto;">
+    <tr style="text-align: right;">
       <th></th>
       <th>total_bill</th>
       <th>tip</th>
@@ -1792,9 +1792,9 @@ df
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table border="1" class="dataframe" style="display: block; margin-left: auto; margin-right: auto;" >
   <thead>
-    <tr style="display: block; margin-left: auto; margin-right: auto;">
+    <tr style="text-align: right;">
       <th></th>
       <th>total_bill</th>
       <th>tip</th>
@@ -1940,5 +1940,5 @@ fig.show()
     src="https://nontapatnon.github.io/python-course-master/md_image_src/iframe_figures/figure_02.html"
     frameborder="0"
     allowfullscreen
-    style="display: block; margin-left: auto; margin-right: auto;"
+    style="text-align: right;"
 ></iframe>
