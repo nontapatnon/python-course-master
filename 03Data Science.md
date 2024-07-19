@@ -1792,7 +1792,7 @@ df
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe" style="display: block; margin-left: auto; margin-right: auto;" >
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
