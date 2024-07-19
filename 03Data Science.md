@@ -1160,7 +1160,7 @@ plt.show()
 
 
     
-![png](https://nontapatnon.github.io/python-course-master/datascience/md_image_src/output_27_0.png)
+![png](https://nontapatnon.github.io/python-course-master/md_image_src/output_27_0.png)
     
 
 
@@ -1183,7 +1183,7 @@ plt.show()
 
 
     
-![png](https://nontapatnon.github.io/python-course-master/datascience/md_image_src/output_29_0.png)
+![png](https://nontapatnon.github.io/python-course-master/md_image_src/output_29_0.png)
     
 
 
@@ -1201,7 +1201,7 @@ sns.countplot(df, x="Pclass")
 
 
     
-![png](https://nontapatnon.github.io/python-course-master/datascience/md_image_src/output_30_1.png)
+![png](https://nontapatnon.github.io/python-course-master/md_image_src/output_30_1.png)
     
 
 
@@ -1219,7 +1219,7 @@ sns.countplot(data = df, x="Pclass", hue="Survived")
 
 
     
-![png](https://nontapatnon.github.io/python-course-master/datascience/md_image_src/output_31_1.png)
+![png](https://nontapatnon.github.io/python-course-master/md_image_src/output_31_1.png)
     
 
 
@@ -1237,7 +1237,7 @@ sns.countplot(data = df , x="Pclass", hue="Survived", stat="percent")
 
 
     
-![png](https://nontapatnon.github.io/python-course-master/datascience/md_image_src/output_32_1.png)
+![png](https://nontapatnon.github.io/python-course-master/md_image_src/output_32_1.png)
     
 
 
@@ -1364,7 +1364,7 @@ sns.lineplot(data = df_may, x = "year", y = "passengers")
 
 
     
-![png](https://nontapatnon.github.io/python-course-master/datascience/md_image_src/output_35_1.png)
+![png](https://nontapatnon.github.io/python-course-master/md_image_src/output_35_1.png)
     
 
 
@@ -1520,7 +1520,7 @@ sns.lineplot(data= df_wide["May"])
 
 
     
-![png](https://nontapatnon.github.io/python-course-master/datascience/md_image_src/output_37_1.png)
+![png](https://nontapatnon.github.io/python-course-master/md_image_src/output_37_1.png)
     
 
 
@@ -1538,7 +1538,7 @@ sns.lineplot(data = df_wide)
 
 
     
-![png](https://nontapatnon.github.io/python-course-master/datascience/md_image_src/output_38_1.png)
+![png](https://nontapatnon.github.io/python-course-master/md_image_src/output_38_1.png)
     
 
 
@@ -1556,7 +1556,7 @@ sns.lineplot(data=df_f, x="year", y="passengers")
 
 
     
-![png](https://nontapatnon.github.io/python-course-master/datascience/md_image_src/output_39_1.png)
+![png](https://nontapatnon.github.io/python-course-master/md_image_src/output_39_1.png)
     
 
 
@@ -1668,7 +1668,7 @@ fig.show()
     scrolling="no"
     width="100%"
     height="545px"
-    src="https://nontapatnon.github.io/python-course-master/datascience/md_image_src/iframe_figures/figure_01.html"
+    src="https://nontapatnon.github.io/python-course-master/md_image_src/iframe_figures/figure_01.html"
     frameborder="0"
     allowfullscreen
     style="display: block; margin-left: auto; margin-right: auto;"
@@ -1937,7 +1937,7 @@ fig.show()
     scrolling="no"
     width="100%"
     height="545px"
-    src="https://nontapatnon.github.io/python-course-master/datascience/md_image_src/iframe_figures/figure_02.html"
+    src="https://nontapatnon.github.io/python-course-master/md_image_src/iframe_figures/figure_02.html"
     frameborder="0"
     allowfullscreen
     style="display: block; margin-left: auto; margin-right: auto;"
