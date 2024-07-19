@@ -105,7 +105,7 @@ df2
 </style>
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
+    <tr style="display: block; margin-left: auto; margin-right: auto;">
       <th></th>
       <th>Name</th>
       <th>Age</th>
@@ -162,7 +162,7 @@ df3
 </style>
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
+    <tr style="display: block; margin-left: auto; margin-right: auto;">
       <th></th>
       <th>name</th>
       <th>Age</th>
@@ -277,7 +277,7 @@ df3
 </style>
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
+    <tr style="display: block; margin-left: auto; margin-right: auto;">
       <th></th>
       <th>name</th>
       <th>Age</th>
@@ -340,7 +340,7 @@ df4
 </style>
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
+    <tr style="display: block; margin-left: auto; margin-right: auto;">
       <th></th>
       <th>name</th>
       <th>Age</th>
@@ -404,7 +404,7 @@ df.head()
 </style>
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
+    <tr style="display: block; margin-left: auto; margin-right: auto;">
       <th></th>
       <th>PassengerId</th>
       <th>Survived</th>
@@ -566,7 +566,7 @@ df[df['Survived'] == 0][['Name', 'Sex']]
 </style>
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
+    <tr style="display: block; margin-left: auto; margin-right: auto;">
       <th></th>
       <th>Name</th>
       <th>Sex</th>
@@ -659,7 +659,7 @@ df.head()
 </style>
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
+    <tr style="display: block; margin-left: auto; margin-right: auto;">
       <th></th>
       <th>PassengerId</th>
       <th>Survived</th>
@@ -781,7 +781,7 @@ df.head(10)
 </style>
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
+    <tr style="display: block; margin-left: auto; margin-right: auto;">
       <th></th>
       <th>PassengerId</th>
       <th>Survived</th>
@@ -978,7 +978,7 @@ df.tail()
 </style>
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
+    <tr style="display: block; margin-left: auto; margin-right: auto;">
       <th></th>
       <th>PassengerId</th>
       <th>Survived</th>
@@ -1116,7 +1116,7 @@ df.groupby(['Sex','Survived'])[['Survived']].count()
 </style>
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
+    <tr style="display: block; margin-left: auto; margin-right: auto;">
       <th></th>
       <th></th>
       <th>Survived</th>
@@ -1268,7 +1268,7 @@ df_f
 </style>
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
+    <tr style="display: block; margin-left: auto; margin-right: auto;">
       <th></th>
       <th>year</th>
       <th>month</th>
@@ -1393,7 +1393,7 @@ df_wide.head()
 </style>
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
+    <tr style="display: block; margin-left: auto; margin-right: auto;">
       <th>month</th>
       <th>Apr</th>
       <th>Aug</th>
@@ -1594,7 +1594,7 @@ df.head()
 </style>
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
+    <tr style="display: block; margin-left: auto; margin-right: auto;">
       <th></th>
       <th>sepal_length</th>
       <th>sepal_width</th>
@@ -1702,7 +1702,7 @@ df.head()
 </style>
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
+    <tr style="display: block; margin-left: auto; margin-right: auto;">
       <th></th>
       <th>total_bill</th>
       <th>tip</th>
@@ -1794,7 +1794,7 @@ df
 </style>
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
+    <tr style="display: block; margin-left: auto; margin-right: auto;">
       <th></th>
       <th>total_bill</th>
       <th>tip</th>
