@@ -3,12 +3,21 @@ layout: page
 title: 03 Data Science
 ---
 
-
 ```python
 # pip install pandas
 ```
 
-### Series
+
+```python
+# pip install matplotlib
+```
+
+
+```python
+# pip install seaborn
+```
+
+## Series
 
 
 ```python
@@ -16,16 +25,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 ```
-
-    C:\Users\Nontapat\AppData\Local\Temp\ipykernel_30788\2151744951.py:1: DeprecationWarning: 
-    Pyarrow will become a required dependency of pandas in the next major release of pandas (pandas 3.0),
-    (to allow more performant data types, such as the Arrow string type, and better interoperability with other libraries)
-    but was not found to be installed on your system.
-    If this would cause problems for you,
-    please provide us feedback at https://github.com/pandas-dev/pandas/issues/54466
-            
-      import pandas as pd
-    
 
 
 ```python
@@ -60,7 +59,7 @@ series
 
 
 
-### DataFrame
+## DataFrame
 
 
 ```python
@@ -382,15 +381,7 @@ import seaborn as sns
 
 
 ```python
-# pip install seaborn
-```
-
-
-```python
 df = pd.read_csv('https://nontapatnon.github.io/python-course-master/datascience/Titanic-Dataset.csv')
-# display(df)
-# df.head(10)
-# df.tail(10)
 df.head()
 ```
 
@@ -768,116 +759,7 @@ df.head()
 
 
 ```python
-import matplotlib.pyplot as plt
-df['Survived'].value_counts()
-```
-
-
-
-
-    Survived
-    0    549
-    1    342
-    Name: count, dtype: int64
-
-
-
-
-```python
-df.groupby(['Sex','Survived'])[['Survived']].count()
-```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th></th>
-      <th>Survived</th>
-    </tr>
-    <tr>
-      <th>Sex</th>
-      <th>Survived</th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th rowspan="2" valign="top">female</th>
-      <th>0</th>
-      <td>81</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>233</td>
-    </tr>
-    <tr>
-      <th rowspan="2" valign="top">male</th>
-      <th>0</th>
-      <td>468</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>109</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
-
-
-```python
-# ax[0].set_title('Survivedvs Sex')
-```
-
-
-```python
-df[['Sex', 'Survived']].groupby(['Sex']).mean().plot.bar()
-plt.show()
-```
-
-
-![png](https://nontapatnon.github.io/python-course-master/md_image_src/output_28_0.png)
-    
-
-
-
-```python
-f, ax = plt.subplots(1, 2, figsize = (18,8))
-ax[0].set_title('Survived vs Sex')
-df[['Sex', 'Survived']].groupby(['Sex']).mean().plot.bar(ax = ax[0])
-
-ax[1].set_title('Sex:Survived vs Dead')
-sns.countplot(x = 'Sex', hue = 'Survived', data = df, ax = ax[1])
-plt.show()
-```
-
-
-    
-![png](https://nontapatnon.github.io/python-course-master/md_image_src/output_29_0.png)
-    
-
-
-
-```python
-df
+df.head(10)
 ```
 
 
@@ -992,20 +874,127 @@ df
       <td>S</td>
     </tr>
     <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
+      <th>5</th>
+      <td>6</td>
+      <td>0</td>
+      <td>3</td>
+      <td>Moran, Mr. James</td>
+      <td>male</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>330877</td>
+      <td>8.4583</td>
+      <td>NaN</td>
+      <td>Q</td>
     </tr>
+    <tr>
+      <th>6</th>
+      <td>7</td>
+      <td>0</td>
+      <td>1</td>
+      <td>McCarthy, Mr. Timothy J</td>
+      <td>male</td>
+      <td>54.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>17463</td>
+      <td>51.8625</td>
+      <td>E46</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>8</td>
+      <td>0</td>
+      <td>3</td>
+      <td>Palsson, Master. Gosta Leonard</td>
+      <td>male</td>
+      <td>2.0</td>
+      <td>3</td>
+      <td>1</td>
+      <td>349909</td>
+      <td>21.0750</td>
+      <td>NaN</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>9</td>
+      <td>1</td>
+      <td>3</td>
+      <td>Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)</td>
+      <td>female</td>
+      <td>27.0</td>
+      <td>0</td>
+      <td>2</td>
+      <td>347742</td>
+      <td>11.1333</td>
+      <td>NaN</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>10</td>
+      <td>1</td>
+      <td>2</td>
+      <td>Nasser, Mrs. Nicholas (Adele Achem)</td>
+      <td>female</td>
+      <td>14.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>237736</td>
+      <td>30.0708</td>
+      <td>NaN</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+df.tail()
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>PassengerId</th>
+      <th>Survived</th>
+      <th>Pclass</th>
+      <th>Name</th>
+      <th>Sex</th>
+      <th>Age</th>
+      <th>SibSp</th>
+      <th>Parch</th>
+      <th>Ticket</th>
+      <th>Fare</th>
+      <th>Cabin</th>
+      <th>Embarked</th>
+    </tr>
+  </thead>
+  <tbody>
     <tr>
       <th>886</th>
       <td>887</td>
@@ -1017,7 +1006,7 @@ df
       <td>0</td>
       <td>0</td>
       <td>211536</td>
-      <td>13.0000</td>
+      <td>13.00</td>
       <td>NaN</td>
       <td>S</td>
     </tr>
@@ -1032,7 +1021,7 @@ df
       <td>0</td>
       <td>0</td>
       <td>112053</td>
-      <td>30.0000</td>
+      <td>30.00</td>
       <td>B42</td>
       <td>S</td>
     </tr>
@@ -1047,7 +1036,7 @@ df
       <td>1</td>
       <td>2</td>
       <td>W./C. 6607</td>
-      <td>23.4500</td>
+      <td>23.45</td>
       <td>NaN</td>
       <td>S</td>
     </tr>
@@ -1062,7 +1051,7 @@ df
       <td>0</td>
       <td>0</td>
       <td>111369</td>
-      <td>30.0000</td>
+      <td>30.00</td>
       <td>C148</td>
       <td>C</td>
     </tr>
@@ -1077,15 +1066,125 @@ df
       <td>0</td>
       <td>0</td>
       <td>370376</td>
-      <td>7.7500</td>
+      <td>7.75</td>
       <td>NaN</td>
       <td>Q</td>
     </tr>
   </tbody>
 </table>
-<p>891 rows × 12 columns</p>
 </div>
 
+
+
+
+```python
+import matplotlib.pyplot as plt
+df['Survived'].value_counts()
+```
+
+
+
+
+    Survived
+    0    549
+    1    342
+    Name: count, dtype: int64
+
+
+
+
+```python
+df.groupby(['Sex','Survived'])[['Survived']].count()
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th></th>
+      <th>Survived</th>
+    </tr>
+    <tr>
+      <th>Sex</th>
+      <th>Survived</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="2" valign="top">female</th>
+      <th>0</th>
+      <td>81</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>233</td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">male</th>
+      <th>0</th>
+      <td>468</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>109</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+df[['Sex', 'Survived']].groupby(['Sex']).mean().plot.bar()
+plt.show()
+```
+
+
+    
+![png](https://nontapatnon.github.io/python-course-master/datascience/md_image_src/output_27_0.png)
+    
+
+
+
+```python
+import matplotlib.pyplot as plt
+import seaborn as sns
+```
+
+
+```python
+f, ax = plt.subplots(1, 2, figsize = (18,8))
+ax[0].set_title('Survived vs Sex')
+df[['Sex', 'Survived']].groupby(['Sex']).mean().plot.bar(ax = ax[0])
+
+ax[1].set_title('Sex:Survived vs Dead')
+sns.countplot(x = 'Sex', hue = 'Survived', data = df, ax = ax[1])
+plt.show()
+```
+
+
+    
+![png](https://nontapatnon.github.io/python-course-master/datascience/md_image_src/output_29_0.png)
+    
 
 
 
@@ -1102,7 +1201,7 @@ sns.countplot(df, x="Pclass")
 
 
     
-![png](https://nontapatnon.github.io/python-course-master/md_image_src/output_31_1.png)
+![png](https://nontapatnon.github.io/python-course-master/datascience/md_image_src/output_30_1.png)
     
 
 
@@ -1120,7 +1219,7 @@ sns.countplot(data = df, x="Pclass", hue="Survived")
 
 
     
-![png](https://nontapatnon.github.io/python-course-master/md_image_src/output_32_1.png)
+![png](https://nontapatnon.github.io/python-course-master/datascience/md_image_src/output_31_1.png)
     
 
 
@@ -1138,9 +1237,11 @@ sns.countplot(data = df , x="Pclass", hue="Survived", stat="percent")
 
 
     
-![png](https://nontapatnon.github.io/python-course-master/md_image_src/output_33_1.png)
+![png](https://nontapatnon.github.io/python-course-master/datascience/md_image_src/output_32_1.png)
     
 
+
+### Time Series Data
 
 
 ```python
@@ -1263,7 +1364,7 @@ sns.lineplot(data = df_may, x = "year", y = "passengers")
 
 
     
-![png](https://nontapatnon.github.io/python-course-master/md_image_src/output_35_1.png)
+![png](https://nontapatnon.github.io/python-course-master/datascience/md_image_src/output_35_1.png)
     
 
 
@@ -1419,7 +1520,7 @@ sns.lineplot(data= df_wide["May"])
 
 
     
-![png](https://nontapatnon.github.io/python-course-master/md_image_src/output_37_1.png)
+![png](https://nontapatnon.github.io/python-course-master/datascience/md_image_src/output_37_1.png)
     
 
 
@@ -1437,14 +1538,9 @@ sns.lineplot(data = df_wide)
 
 
     
-![png](https://nontapatnon.github.io/python-course-master/md_image_src/output_38_1.png)
+![png](https://nontapatnon.github.io/python-course-master/datascience/md_image_src/output_38_1.png)
     
 
-
-
-```python
-# df_f
-```
 
 
 ```python
@@ -1460,276 +1556,13 @@ sns.lineplot(data=df_f, x="year", y="passengers")
 
 
     
-![png](https://nontapatnon.github.io/python-course-master/md_image_src/output_40_1.png)
+![png](https://nontapatnon.github.io/python-course-master/datascience/md_image_src/output_39_1.png)
     
 
 
 
 ```python
-
-```
-
-## Pandas - df - Series 
-
-
-```python
-import pandas as pd
-```
-
-    C:\Users\Nontapat\AppData\Local\Temp\ipykernel_37024\4080736814.py:1: DeprecationWarning: 
-    Pyarrow will become a required dependency of pandas in the next major release of pandas (pandas 3.0),
-    (to allow more performant data types, such as the Arrow string type, and better interoperability with other libraries)
-    but was not found to be installed on your system.
-    If this would cause problems for you,
-    please provide us feedback at https://github.com/pandas-dev/pandas/issues/54466
-            
-      import pandas as pd
-    
-
-
-```python
-import numpy as np 
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-# plt.style.use('fivethirtyeight')
-import warnings
-warnings.filterwarnings('ignore')
-%matplotlib inline
-```
-
-
-```python
-blood['b'] = "A"
-print(blood)
-print(blood.is_unique)
-blood.unique()
-```
-
-
-    ---------------------------------------------------------------------------
-
-    NameError                                 Traceback (most recent call last)
-
-    Cell In[9], line 1
-    ----> 1 blood['b'] = "A"
-          2 print(blood)
-          3 print(blood.is_unique)
-    
-
-    NameError: name 'blood' is not defined
-
-
-
-```python
-import pandas as pd
-s = pd.Series([1,2,3,4,5])
-
-print(s[0])
-```
-
-
-```python
-import pandas as pd
-#create dataframe using a single list
-data = [1,2,3,4,5]
-df1 = pd.DataFrame(data)
-print(df1)
-
-#create dataframe using a list of lists
-data = [['Alice',21],['Bob',22],['Cathy',23]]
-df2 = pd.DataFrame(data,columns=['Name','Age'])
-df2
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-import pandas as pd
-blood = pd.Series(["A","B","AB","O"])
-# print(blood)
-blood
-# print("blood has values:",blood.values,"with type",type(blood.values))
-# print("blood has index:",blood.index,"with type",type(blood.index))
-# print("All blood types", blood.dtype)
-# blood[4] = 123
-# blood.name="blood";
-# print("blood has name:",blood.name)
-# blood
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-import numpy as np 
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-# plt.style.use('fivethirtyeight')
-import warnings
-warnings.filterwarnings('ignore')
-%matplotlib inline
-```
-
-
-```python
-data = pd.read_csv('https://nontapatnon.github.io/python-course-master/datascience/Titanic-Dataset.csv')
-display(data)
-```
-
-
-```python
-data[data['Survived']== 0 ][['Name'	,'Sex']]
-```
-
-
-```python
-f,ax=plt.subplots(1,2,figsize=(18,8))
-data['Survived'].value_counts().plot.pie(explode=[0,0.005],autopct='%1.1f%%',ax=ax[0],shadow=False)
-ax[0].set_title('Survived')
-ax[0].set_ylabel('')
-sns.countplot(x = 'Survived',data=data,ax=ax[1])
-ax[1].set_title('Survived')
-plt.show()
-```
-
-
-```python
-data.groupby(['Sex','Survived'])[['Survived']].count()
-```
-
-
-```python
-f,ax=plt.subplots(1,2,figsize=(18,8))
-data[['Sex','Survived']].groupby(['Sex']).mean().plot.bar(ax=ax[0])
-ax[0].set_title('Survived vs Sex')
-sns.countplot(x = 'Sex',hue='Survived',data=data,ax=ax[1])
-ax[1].set_title('Sex:Survived vs Dead')
-plt.show()
-```
-
-
-```python
-f,ax=plt.subplots(1,2,figsize=(20,10))
-data[data['Survived']==0].Age.plot.hist(ax=ax[0],bins=20,edgecolor='black',color='red')
-ax[0].set_title('Survived= 0')
-x1=list(range(0,85,5))
-ax[0].set_xticks(x1)
-data[data['Survived']==1].Age.plot.hist(ax=ax[1],color='green',bins=20,edgecolor='black')
-ax[1].set_title('Survived= 1')
-x2=list(range(0,85,5))
-ax[1].set_xticks(x2)
-plt.show()
-```
-
-
-```python
-sns.countplot(data, x="Pclass")
-```
-
-
-```python
-sns.countplot(data = data, x="Pclass", hue="Survived")
-```
-
-
-```python
-sns.countplot(data = data , x="Pclass", hue="Survived", stat="percent")
-```
-
-
-```python
-# https://seaborn.pydata.org/generated/seaborn.lineplot.html
-# flights = sns.load_dataset("flights")
-# flights.to_csv("flight2.csv", index = False)
-# flights.head()
-
-flights  = pd.read_csv("https://nontapatnon.github.io/python-course-master/datascience/flight2.csv")
-flights
-```
-
-
-```python
-may_flights = flights.query("month == 'May'")
-sns.lineplot(data=may_flights, x="year", y="passengers")
-```
-
-
-```python
-flights_wide = flights.pivot(index="year", columns="month", values="passengers")
-flights_wide.head()
-```
-
-
-```python
-sns.lineplot(data=flights_wide["May"])
-```
-
-
-```python
-sns.lineplot(data=flights_wide)
-```
-
-
-```python
-sns.lineplot(data=flights, x="year", y="passengers")
-```
-
-
-```python
-flight2 = pd.read_csv("https://nontapatnon.github.io/python-course-master/datascience/flights.csv")
-
-flight2.head()
-```
-
-
-```python
-import pandas as pd
-df_new = pd.DataFrame({'col1': [1,2,3] , "col2": [4,5,6]})
-df_new.head()
+# pip install plotly
 ```
 
 
@@ -1743,11 +1576,104 @@ df.head()
 ```
 
 
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>sepal_length</th>
+      <th>sepal_width</th>
+      <th>petal_length</th>
+      <th>petal_width</th>
+      <th>species</th>
+      <th>species_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>5.1</td>
+      <td>3.5</td>
+      <td>1.4</td>
+      <td>0.2</td>
+      <td>setosa</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>4.9</td>
+      <td>3.0</td>
+      <td>1.4</td>
+      <td>0.2</td>
+      <td>setosa</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>4.7</td>
+      <td>3.2</td>
+      <td>1.3</td>
+      <td>0.2</td>
+      <td>setosa</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4.6</td>
+      <td>3.1</td>
+      <td>1.5</td>
+      <td>0.2</td>
+      <td>setosa</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5.0</td>
+      <td>3.6</td>
+      <td>1.4</td>
+      <td>0.2</td>
+      <td>setosa</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
 ```python
 fig = px.scatter(df, x="sepal_width", y="sepal_length", color="species",
                  size='petal_length', hover_data=['petal_width'])
 fig.show()
 ```
+
+
+<iframe
+    scrolling="no"
+    width="100%"
+    height="545px"
+    src="iframe_figures/figure_48.html"
+    frameborder="0"
+    allowfullscreen
+></iframe>
+
+
 
 
 ```python
@@ -1757,9 +1683,244 @@ df.head()
 ```
 
 
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>total_bill</th>
+      <th>tip</th>
+      <th>sex</th>
+      <th>smoker</th>
+      <th>day</th>
+      <th>time</th>
+      <th>size</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>16.99</td>
+      <td>1.01</td>
+      <td>Female</td>
+      <td>No</td>
+      <td>Sun</td>
+      <td>Dinner</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>10.34</td>
+      <td>1.66</td>
+      <td>Male</td>
+      <td>No</td>
+      <td>Sun</td>
+      <td>Dinner</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>21.01</td>
+      <td>3.50</td>
+      <td>Male</td>
+      <td>No</td>
+      <td>Sun</td>
+      <td>Dinner</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>23.68</td>
+      <td>3.31</td>
+      <td>Male</td>
+      <td>No</td>
+      <td>Sun</td>
+      <td>Dinner</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>24.59</td>
+      <td>3.61</td>
+      <td>Female</td>
+      <td>No</td>
+      <td>Sun</td>
+      <td>Dinner</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
 ```python
 df
 ```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>total_bill</th>
+      <th>tip</th>
+      <th>sex</th>
+      <th>smoker</th>
+      <th>day</th>
+      <th>time</th>
+      <th>size</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>16.99</td>
+      <td>1.01</td>
+      <td>Female</td>
+      <td>No</td>
+      <td>Sun</td>
+      <td>Dinner</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>10.34</td>
+      <td>1.66</td>
+      <td>Male</td>
+      <td>No</td>
+      <td>Sun</td>
+      <td>Dinner</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>21.01</td>
+      <td>3.50</td>
+      <td>Male</td>
+      <td>No</td>
+      <td>Sun</td>
+      <td>Dinner</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>23.68</td>
+      <td>3.31</td>
+      <td>Male</td>
+      <td>No</td>
+      <td>Sun</td>
+      <td>Dinner</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>24.59</td>
+      <td>3.61</td>
+      <td>Female</td>
+      <td>No</td>
+      <td>Sun</td>
+      <td>Dinner</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>239</th>
+      <td>29.03</td>
+      <td>5.92</td>
+      <td>Male</td>
+      <td>No</td>
+      <td>Sat</td>
+      <td>Dinner</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>240</th>
+      <td>27.18</td>
+      <td>2.00</td>
+      <td>Female</td>
+      <td>Yes</td>
+      <td>Sat</td>
+      <td>Dinner</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>241</th>
+      <td>22.67</td>
+      <td>2.00</td>
+      <td>Male</td>
+      <td>Yes</td>
+      <td>Sat</td>
+      <td>Dinner</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>242</th>
+      <td>17.82</td>
+      <td>1.75</td>
+      <td>Male</td>
+      <td>No</td>
+      <td>Sat</td>
+      <td>Dinner</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>243</th>
+      <td>18.78</td>
+      <td>3.00</td>
+      <td>Female</td>
+      <td>No</td>
+      <td>Thur</td>
+      <td>Dinner</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+<p>244 rows × 7 columns</p>
+</div>
+
+
 
 
 ```python
@@ -1771,31 +1932,11 @@ fig.show()
 ```
 
 
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
+<iframe
+    scrolling="no"
+    width="100%"
+    height="545px"
+    src="iframe_figures/figure_51.html"
+    frameborder="0"
+    allowfullscreen
+></iframe>
